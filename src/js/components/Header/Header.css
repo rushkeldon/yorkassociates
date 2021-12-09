@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  height: 80px;
+  background: white;
+}
+.header .nav {
+  padding: 20px 40px;
+}
+.header .nav .nav-item {
+  text-decoration: none;
+  margin-right: 20px;
+}
+.header .logo {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  width: 240px;
+}
+/*# sourceMappingURL=Header.css.map */
