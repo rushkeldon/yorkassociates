@@ -1,3 +1,4 @@
+/* media queries */
 .header {
   position: relative;
   height: 80px;
@@ -9,6 +10,15 @@
 .header .nav .nav-item {
   text-decoration: none;
   margin-right: 20px;
+  color: #737373;
+}
+.header .nav .nav-item:visited,
+.header .nav .nav-item:active {
+  color: #737373;
+}
+.header .nav .nav-item.active {
+  color: black;
+  pointer-events: none;
 }
 .header .logo {
   position: absolute;
