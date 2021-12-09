@@ -1,6 +1,17 @@
 @import "../../../css/vars.less";
 @import "../../../css/mixins.less";
 
-.app {
-
+#root {
+  position : fixed;
+  width : 100vw;
+  height : 100vh;
+  overflow-y : scroll;
+  .logo {
+    position : absolute;
+    right : 100px;
+    top : 30px;
+    width : 240px;
+    z-index : @zIndexAboveChrome;
+    background : @clrBG0;
+  }
 }

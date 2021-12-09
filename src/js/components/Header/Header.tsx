@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './Header.css';
 import { routes } from '../../data/consts';
+
+import './Header.css';
 
 type props = {
   page: string;
@@ -10,8 +11,9 @@ type props = {
 export default function Header( {
   page = ""
 } : props ) {
-  return (
-    <header className="header">
+  return <header
+      className="header"
+    >
       <div className="nav">
         <Link
           className={ `nav-item${ page === routes.home ? ' active' : '' }` }
@@ -38,15 +40,5 @@ export default function Header( {
           to="/contact">Contact
         </Link>
       </div>
-      <img
-        className="logo"
-        src="img/masthead.png"
-        alt=""
-      />
-    </header>
-  );
-}
-
-function isOnPage( path : string ) : boolean {
-  return true;
+    </header>;
 }

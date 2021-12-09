@@ -1,2 +1,18 @@
 /* media queries */
-/*# sourceMappingURL=App.css.map */
+/* colors */
+/* dimensions */
+/* depth */
+#root {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+}
+#root .logo {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  width: 240px;
+  z-index: 20;
+  background: white;
+}

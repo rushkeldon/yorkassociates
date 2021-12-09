@@ -4,10 +4,10 @@ import Header from '../Header/Header';
 import { routes } from '../../data/consts';
 
 export default function PageContact() {
-  return (
+  return <>
+    <Header page={ routes.contact }/>
     <div className="page page-contact">
-      <Header page={ routes.contact }/>
       <h1>Contact Us</h1>
     </div>
-  );
+  </>;
 }

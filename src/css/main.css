@@ -1,6 +1,10 @@
 /* media queries */
+/* colors */
+/* dimensions */
+/* depth */
 body,
 html {
+  position: relative;
   margin: 0px;
   left: 0px;
   right: 0px;
@@ -9,7 +13,7 @@ html {
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
-  color: #737373;
+  color: black;
   padding: 0px;
   background: white;
   font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -27,6 +31,13 @@ html {
   font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
   outline: none !important;
 }
+.page {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-top: 80px;
+  min-height: 60vh;
+}
 button {
   -webkit-appearance: none;
   appearance: none;
@@ -35,18 +46,15 @@ button {
   font-size: 16px;
   background: cornflower;
   padding: 0px 25px;
+  border: 1px solid #737373;
 }
 button:hover,
 button:focus {
   outline: none;
-  cursor: pointer;
+  cursor: default;
   background: red;
-  border: none;
 }
 button:active {
   outline: none;
-  cursor: pointer;
-  padding-top: 2px;
-  border: none;
+  cursor: default;
 }
-/*# sourceMappingURL=main.css.map */
