@@ -1,34 +1,37 @@
 /* media queries */
 /* colors */
 /* dimensions */
+/* depth */
+#root:not([data-scroll='0']) .header {
+  position: fixed;
+  top: 0;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+}
 .header {
-  position: absolute;
+  position: fixed;
+  width: 100%;
   left: 0px;
   right: 0px;
   top: 0px;
   height: 80px;
   background: white;
+  z-index: 10;
 }
 .header .nav {
-  padding: 20px 40px;
+  padding: 0px 40px;
 }
 .header .nav .nav-item {
+  line-height: 80px;
   text-decoration: none;
   margin-right: 20px;
-  color: #737373;
+  color: black;
+  font-weight: 500;
 }
 .header .nav .nav-item:visited,
 .header .nav .nav-item:active {
-  color: #737373;
+  color: black;
 }
 .header .nav .nav-item.active {
-  color: black;
+  color: #1278BC;
   pointer-events: none;
 }
-.header .logo {
-  position: absolute;
-  right: 100px;
-  top: 30px;
-  width: 240px;
-}
-/*# sourceMappingURL=Header.css.map */

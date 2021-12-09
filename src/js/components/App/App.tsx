@@ -10,16 +10,19 @@ import { routes } from '../../data/consts';
 import './App.css';
 
 export default function App() {
-  return (
-    <div className="app">
-      <Routes>
-        <Route path={ `/` } element={<PageHome />} />
-        <Route path={ `/${ routes.ourwork }` } element={<PageOurWork />} />
-        <Route path={ `/${ routes.services }` } element={<PageServices />} />
-        <Route path={ `/${ routes.about }` } element={<PageAbout />} />
-        <Route path={ `/${ routes.bidding }` } element={<PageBidding />} />
-        <Route path={ `/${ routes.contact }` } element={<PageContact />} />
-      </Routes>
-    </div>
-  );
+  return <>
+    <img
+      className="logo"
+      src="img/masthead.png"
+      alt=""
+    />
+    <Routes>
+      <Route path={ `/` } element={<PageHome />} />
+      <Route path={ `/${ routes.ourwork }` } element={<PageOurWork />} />
+      <Route path={ `/${ routes.services }` } element={<PageServices />} />
+      <Route path={ `/${ routes.about }` } element={<PageAbout />} />
+      <Route path={ `/${ routes.bidding }` } element={<PageBidding />} />
+      <Route path={ `/${ routes.contact }` } element={<PageContact />} />
+    </Routes>
+  </>;
 }

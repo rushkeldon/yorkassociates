@@ -1,32 +1,38 @@
 @import "../../../css/vars.less";
 @import "../../../css/mixins.less";
 
+#root:not([data-scroll='0']) {
+  .header {
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+  }
+}
+
 .header {
-  position : absolute;
+  position : fixed;
+  width : 100%;
   left : 0px;
   right : 0px;
   top : 0px;
   height : @heightHeader;
   background : @clrBG0;
+  z-index : @zIndexChrome;
   .nav {
-    padding : 20px 40px;
+    padding : 0px 40px;
     .nav-item {
+      line-height : @heightHeader;
       text-decoration : none;
       margin-right : 20px;
       color : @clrFG0;
+      font-weight : 500;
       &:visited, &:active {
         color : @clrFG0;
       }
       &.active {
-        color : @clrFG1;
+        color : @clrBrand;
         pointer-events: none;
       }
     }
-  }
-  .logo {
-    position : absolute;
-    right : 100px;
-    top : 30px;
-    width : 240px;
   }
 }
