@@ -8,6 +8,7 @@ import PageBidding from '../PageBidding/PageBidding';
 import PageContact from '../PageContact/PageContact';
 import { routes } from '../../data/consts';
 import './App.css';
+import Footer from '../Footer/Footer';
 
 export default function App() {
   return <>
@@ -24,5 +25,6 @@ export default function App() {
       <Route path={ `/${ routes.bidding }` } element={<PageBidding />} />
       <Route path={ `/${ routes.contact }` } element={<PageContact />} />
     </Routes>
+    <Footer/>
   </>;
 }

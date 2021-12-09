@@ -11,8 +11,7 @@ type props = {
 export default function Header( {
   page = ""
 } : props ) {
-  return (
-    <header
+  return <header
       className="header"
     >
       <div className="nav">
@@ -41,6 +40,5 @@ export default function Header( {
           to="/contact">Contact
         </Link>
       </div>
-    </header>
-  );
+    </header>;
 }

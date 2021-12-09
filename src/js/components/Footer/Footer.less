@@ -1,0 +1,38 @@
+@import "../../../css/vars.less";
+@import "../../../css/mixins.less";
+
+.footer {
+  width : 100%;
+  padding : 10px 60px 0px;
+  color : @clrBG0;
+  background : #363738;
+  font-size : 14px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap : 10px;
+  .tri {
+    border : 1px solid magenta;
+    grid-row : 1;
+    &:nth-child(1){
+      grid-column : 1;
+    }
+    &:nth-child(2){
+      grid-column : 2;
+    }
+    &:nth-child(3){
+      grid-column : 3;
+    }
+  }
+  strong {
+    font-weight: 700;
+  }
+  .data {
+    padding-left : 20px;
+  }
+  .copyright {
+    text-align : center;
+    grid-column : 1 / 4;
+    border : 1px solid magenta;
+  }
+}
