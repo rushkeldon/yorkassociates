@@ -3,5 +3,7 @@
   "outputFolder": "src/",
   "sourceMap": false,
   "runOnce": false,
-  "enableJs": true
+  "enableJs": true,
+  "lessArgs": "",
+  "plugins": "less-plugin-clean-css"
 }

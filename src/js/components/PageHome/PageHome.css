@@ -1,12 +1,1 @@
-/* media queries */
-/* colors */
-/* dimensions */
-/* depth */
-.page-home button {
-  background: purple;
-}
-@media screen and (min-width:768px) {
-  .page-home button {
-    background: orangered;
-  }
-}
+.page-home button{background:purple}@media screen and (min-width:768px){.page-home button{background:#ff4500}}
