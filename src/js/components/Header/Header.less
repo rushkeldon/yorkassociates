@@ -18,6 +18,13 @@
   height : @heightHeader;
   background : @clrBG0;
   z-index : @zIndexChrome;
+  @media @queryMedium {
+    height : @heightHeaderShort;
+  }
+
+  @media @querySmall {
+    height : @heightHeaderShort;
+  }
   .nav {
     padding : 0px 40px;
     .nav-item {
@@ -33,6 +40,36 @@
         color : @clrBrand;
         pointer-events: none;
       }
+    }
+    @media @queryLarge {
+      display : block;
+    }
+
+    @media @queryMedium {
+      // TODO : hamburger
+      display : none;
+    }
+
+    @media @querySmall {
+      // TODO : hamburger
+      display : none;
+    }
+  }
+  .logo {
+    position : absolute;
+    right : 100px;
+    top : 22px;
+    width : 240px;
+    @media @queryMedium {
+      right : unset;
+      left : 10px;
+      top : 10px;
+    }
+
+    @media @querySmall {
+      right : unset;
+      left : 10px;
+      top : 10px;
     }
   }
 }

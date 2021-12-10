@@ -9,21 +9,18 @@ import PageContact from '../PageContact/PageContact';
 import { routes } from '../../data/consts';
 import './App.css';
 import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 
 export default function App() {
   return <>
-    <img
-      className="logo"
-      src="img/masthead.png"
-      alt=""
-    />
+    <Header/>
     <Routes>
-      <Route path={ `/` } element={<PageHome />} />
-      <Route path={ `/${ routes.ourwork }` } element={<PageOurWork />} />
-      <Route path={ `/${ routes.services }` } element={<PageServices />} />
-      <Route path={ `/${ routes.about }` } element={<PageAbout />} />
-      <Route path={ `/${ routes.bidding }` } element={<PageBidding />} />
-      <Route path={ `/${ routes.contact }` } element={<PageContact />} />
+      <Route path={ routes.home } element={<PageHome />} />
+      <Route path={ routes.ourwork } element={<PageOurWork />} />
+      <Route path={ routes.services } element={<PageServices />} />
+      <Route path={ routes.about } element={<PageAbout />} />
+      <Route path={ routes.bidding } element={<PageBidding />} />
+      <Route path={ routes.contact } element={<PageContact />} />
     </Routes>
     <Footer/>
   </>;

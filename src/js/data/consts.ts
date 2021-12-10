@@ -1,8 +1,8 @@
 export enum routes {
-  home = '',
-  ourwork = 'ourwork',
-  services = 'services',
-  about = 'about',
-  bidding = 'bidding',
-  contact = 'contact'
+  home = '/york/',
+  ourwork = '/york/ourwork',
+  services = '/york/services',
+  about = '/york/about',
+  bidding = '/york/bidding',
+  contact = '/york/contact'
 };

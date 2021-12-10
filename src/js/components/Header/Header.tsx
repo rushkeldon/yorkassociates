@@ -1,44 +1,46 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { routes } from '../../data/consts';
 
 import './Header.css';
 
-type props = {
-  page: string;
-};
+export default function Header() {
 
-export default function Header( {
-  page = ""
-} : props ) {
+  const pathname = useLocation().pathname;
+
   return <header
       className="header"
     >
       <div className="nav">
         <Link
-          className={ `nav-item${ page === routes.home ? ' active' : '' }` }
-          to="/">Home
+          className={ `nav-item${ pathname === routes.home ? ' active' : '' }` }
+          to={routes.home}>Home
         </Link>
         <Link
-          className={ `nav-item${ page === routes.ourwork ? ' active' : '' }` }
-          to="/ourwork">Our Work
+          className={ `nav-item${ pathname === routes.ourwork ? ' active' : '' }` }
+          to={routes.ourwork}>Our Work
         </Link>
         <Link
-          className={ `nav-item${ page === routes.services ? ' active' : '' }` }
-          to="/services">Our Services
+          className={ `nav-item${ pathname === routes.services ? ' active' : '' }` }
+          to={routes.services}>Our Services
         </Link>
         <Link
-          className={ `nav-item${ page === routes.about ? ' active' : '' }` }
-          to="/about">About Us
+          className={ `nav-item${ pathname === routes.about ? ' active' : '' }` }
+          to={routes.about}>About Us
         </Link>
         <Link
-          className={ `nav-item${ page === routes.bidding ? ' active' : '' }` }
-          to="/bidding">Bidding
+          className={ `nav-item${ pathname === routes.bidding ? ' active' : '' }` }
+          to={routes.bidding}>Bidding
         </Link>
         <Link
-          className={ `nav-item${ page === routes.contact ? ' active' : '' }` }
-          to="/contact">Contact
+          className={ `nav-item${ pathname === routes.contact ? ' active' : '' }` }
+          to={routes.contact}>Contact
         </Link>
       </div>
+      <img
+        className="logo"
+        src="img/masthead.png"
+        alt=""
+      />
     </header>;
 }
