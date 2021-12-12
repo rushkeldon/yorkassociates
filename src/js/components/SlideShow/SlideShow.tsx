@@ -13,12 +13,7 @@ const CN : string = 'SlideShow';
 export default function SlideShow( {
   h1 = 'title here',
   p = 'body copy here',
-  imgURLs = [
-    'img/slideshow_000.jpg',
-    'img/slideshow_001.jpg',
-    'img/slideshow_002.jpg',
-    'img/slideshow_003.jpg'
-  ]
+  imgURLs = []
 } : props ) {
   console.log( CN + ' rendering...' );
 
@@ -32,10 +27,12 @@ export default function SlideShow( {
       <h1>{ h1 }</h1>
       <p>{ p }</p>
     </div>
+
     <div
       ref={ stageRef }
       className="stage"
     >
+      <div className="scrim"/>
       { imgURLs.map( ( url : string, i : number ) => <img
         key={ i }
         src={ imgURLs[ i ] }
