@@ -8,28 +8,54 @@
   top: @heightHeader;
   overflow: hidden;
   height: 600px;
+  @media @queryMedium {
+    height: 400px;
+  }
+
+  @media @querySmall {
+    height: 300px;
+  }
   .msg {
     color: @clrBG0;
     position: absolute;
     height: 50%;
-    top: 0px;
-    bottom: 0px;
+    top: 24%;
+    bottom: 24%;
     left: 100px;
     right: 0px;
     width: 550px;
     object-fit: contain;
-    max-width: 80%;
-    margin: auto 0px;
+    max-width: 100%;
     z-index: 100;
+    @media @queryMedium {
+      height: 50%;
+      top: 24%;
+      bottom: 24%;
+      left: 40px;
+    }
+
+    @media @querySmall {
+      height : 70%;
+      top: 15%;
+      bottom: 15%;
+      left: 10px;
+    }
     h1 {
       font-size: 50px;
       margin-block-end: 0;
-      .TextShadow(2px, @clrBlackAlpha5);
+      .TextShadow();
+      @media @queryMedium {
+        font-size: 40px;
+      }
+
+      @media @querySmall {
+        font-size: 30px;
+      }
     }
     p {
       font-size: 20px;
       font-weight: 550;
-      .TextShadow(2px, @clrBlackAlpha5);
+      .TextShadow();
     }
   }
   .stage {

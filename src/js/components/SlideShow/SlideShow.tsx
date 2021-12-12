@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import './SlideShow.css';
-import { getGUID } from '../../utils/utils';
 
 type props = {
   h1? : string;
