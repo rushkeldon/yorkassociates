@@ -1,6 +1,5 @@
 import React from 'react';
 import './PageAbout.css';
-import { startScrollDataAttr } from '../../utils/utils';
 
 export default function PageAbout() {
   return <>

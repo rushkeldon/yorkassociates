@@ -1,0 +1,14 @@
+@import './vars.less';
+
+.TextShadow( @spread : 1px, @clr : @clrBlackAlpha3 ) {
+  text-shadow: @spread @spread 2px @clr;
+}
+
+.Transition( @props : all, @dur : 1s, @ease: ease-in-out, @delay : 0s ) {
+  -webkit-transition: @props @dur @ease @delay;
+  -moz-transition: @props @dur @ease @delay;
+  -o-transition: @props @dur @ease @delay;
+  transition: @props @dur @ease @delay;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}

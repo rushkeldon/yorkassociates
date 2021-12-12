@@ -22,8 +22,6 @@ export function startScrollDataAttr( element : HTMLElement ) : void {
 }
 
 
-
-
 export function getSignal( name : string, logLevel = 1 ) : signals.Signal {
   let signal : signals.Signal = new signals.Signal();
   if( logLevel > 0 ) {
@@ -34,4 +32,16 @@ export function getSignal( name : string, logLevel = 1 ) : signals.Signal {
   }
 
   return signal;
+}
+
+export function nodeListToArray( nodeList : any ) : any[] {
+  return nodeList ? Array.prototype.slice.call( nodeList ) : [];
+}
+
+export function getGUID() : string {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace( /[xy]/g, ( c ) => {
+    let r = ( Math.random() * 16 ) | 0,
+        v = c === 'x' ? r : ( r & 0x3 ) | 0x8;
+    return v.toString( 16 );
+  } );
 }
