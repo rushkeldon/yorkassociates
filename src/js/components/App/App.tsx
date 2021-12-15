@@ -10,6 +10,12 @@ import { routes } from '../../data/consts';
 import './App.css';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import PageArlington from '../PageArlington/PageArlington';
+import PageBainbridge from '../PageBainbridge/PageBainbridge';
+import PageBillReynolds from '../PageBillReynolds/PageBillReynolds';
+import PageEastDouglas from '../PageEastDouglas/PageEastDouglas';
+import PageRiverWalk from '../PageRiverWalk/PageRiverWalk';
+import PageWetlandWasteWater from '../PageWetlandWasteWater/PageWetlandWasteWater';
 
 export default function App() {
   return <>
@@ -21,6 +27,12 @@ export default function App() {
       <Route path={ routes.about } element={<PageAbout />} />
       <Route path={ routes.bidding } element={<PageBidding />} />
       <Route path={ routes.contact } element={<PageContact />} />
+      <Route path={ routes.projectArlington } element={<PageArlington />} />
+      <Route path={ routes.projectBainbridge } element={<PageBainbridge />} />
+      <Route path={ routes.projectBillReynolds } element={<PageBillReynolds />} />
+      <Route path={ routes.projectEastDouglas } element={<PageEastDouglas />} />
+      <Route path={ routes.projectRiverWalk } element={<PageRiverWalk />} />
+      <Route path={ routes.projectWetlandWasteWater } element={<PageWetlandWasteWater />} />
     </Routes>
     <Footer/>
   </>;

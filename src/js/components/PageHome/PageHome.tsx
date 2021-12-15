@@ -1,6 +1,7 @@
 import React from 'react';
 import './PageHome.css';
 import SlideShow from '../SlideShow/SlideShow';
+import ProjectLinks from '../ProjectLinks/ProjectLinks';
 
 export default function PageHome() {
   return <>
@@ -15,6 +16,7 @@ export default function PageHome() {
           'img/ped_bridge.png'
         ]}
       />
+      <ProjectLinks/>
     </div>
   </>;
 }

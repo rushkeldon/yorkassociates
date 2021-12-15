@@ -1,6 +1,19 @@
 @import "../../../css/vars.less";
 @import "../../../css/mixins.less";
 
-.page-home {
-  height : 4000px;
+@topGutter : 30px;
+
+.page {
+  &.page-home {
+    max-width : 1442px;
+    height : 4000px;
+    padding-top : @heightHeader + @heightHero + @topGutter;
+    @media @queryMedium {
+      padding-top : @heightHeaderShort + @heightHeroMedium + @topGutter;
+    }
+    @media @querySmall {
+      padding-top : @heightHeaderShort + @heightHeroShort + @topGutter;
+    }
+  }
 }
+
