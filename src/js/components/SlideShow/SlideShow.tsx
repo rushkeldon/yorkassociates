@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './SlideShow.css';
+import { noop } from '../../utils/utils';
 
 type props = {
   h1? : string;
@@ -16,7 +17,7 @@ export default function SlideShow( {
 } : props ) {
   console.log( CN + ' rendering...' );
 
-  const [ slideIndex, setSlideIndex ] = useState<number>( 0 );
+  const [ slideIndex, setSlideIndex ] = useState<number>( -1 );
   const stageRef = useRef<HTMLDivElement>( document.createElement( 'div' ) );
 
   return <div
@@ -31,13 +32,14 @@ export default function SlideShow( {
       ref={ stageRef }
       className="stage"
     >
-      <div className="scrim"/>
+      <div className={ `scrim${ slideIndex > -1 ? ' displayed' : '' }` }/>
       { imgURLs.map( ( url : string, i : number ) => <img
         key={ i }
         src={ imgURLs[ i ] }
         alt=""
         className={ getSlideClassName( i ) }
         onAnimationEnd={ slideAnimationEnded }
+        onLoad={ i === 0 ? () => setSlideIndex( 0 ) : noop }
       /> ) }
     </div>
   </div>;

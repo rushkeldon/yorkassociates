@@ -1,5 +1,7 @@
 import * as signals from 'signals';
 
+export const noop = () => {};
+
 export function startScrollDataAttr( element : HTMLElement ) : void {
   const debounce = ( fn ) => {
     let frame;

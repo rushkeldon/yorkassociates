@@ -75,6 +75,10 @@
       min-width: 700px;
       background: linear-gradient(0.25turn, @clrBlackAlpha5, @clrBlackAlpha0);
       z-index: 11;
+      display : none;
+      &.displayed {
+        display : inline-block;
+      }
     }
     .slide {
       position: absolute;
@@ -87,12 +91,15 @@
       opacity: 1;
       transform: scale(1);
       z-index: 1;
+      visibility: hidden;
       &.on-stage {
         animation: slideAnimation 15s ease-in;
         z-index: 10;
+        visibility: visible;
       }
       &.next-up {
         z-index: 9;
+        visibility: visible;
       }
     }
   }
