@@ -8,14 +8,11 @@ type props = {
   imgURLs? : string[];
 };
 
-const CN : string = 'SlideShow';
-
 export default function SlideShow( {
   h1 = 'title here',
   p = 'body copy here',
   imgURLs = []
 } : props ) {
-  console.log( CN + ' rendering...' );
 
   const [ slideIndex, setSlideIndex ] = useState<number>( -1 );
   const stageRef = useRef<HTMLDivElement>( document.createElement( 'div' ) );
