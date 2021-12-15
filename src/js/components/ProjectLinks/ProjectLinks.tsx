@@ -47,7 +47,7 @@ export default function ProjectLinks() {
     </Link>
     <Link
       className={ `project-link` }
-      to={routes.projectBillReynolds}>
+      to={routes.projectWetlandWasteWater}>
       <img
         src="img/thumb_wetland_wastewater.jpg"
         alt=""
