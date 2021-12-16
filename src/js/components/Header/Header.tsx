@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from "react-router-dom";
 import { routes } from '../../data/consts';
+import imgMasthead from '../../../img/masthead.png';
 
 import './Header.css';
 
@@ -39,7 +40,7 @@ export default function Header() {
       </div>
       <img
         className="logo"
-        src="img/masthead.png"
+        src={imgMasthead}
         alt=""
       />
     </header>;
