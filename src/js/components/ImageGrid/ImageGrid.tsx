@@ -11,7 +11,9 @@ export default function ImageGrid( {
 } : props ) {
 
   return <div className="image-grid">
-    { imgURLs.map( ( url, i ) => <div className={ i === imgURLs.length - 1 ? 'landscape' : '' }>
+    { imgURLs.map( ( url, i ) => <div
+      key={ i }
+      className={ i === imgURLs.length - 1 ? 'landscape' : '' } >
         <img
           src={ url }
           alt=""

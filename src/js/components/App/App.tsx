@@ -14,13 +14,15 @@ import PageBainbridge from '../PageBainbridge/PageBainbridge';
 import PageBillReynolds from '../PageBillReynolds/PageBillReynolds';
 import PageEastDouglas from '../PageEastDouglas/PageEastDouglas';
 import PageRiverWalk from '../PageRiverWalk/PageRiverWalk';
-import PageWetlandWasteWater from '../PageWetlandWasteWater/PageWetlandWasteWater';
+import PageWetland from '../PageWetland/PageWetland';
+import ScrollToTop from '../ScrollToTop/ScrollToTop';
 
 import './App.css';
 
 export default function App() {
   return <>
     <Header/>
+    <ScrollToTop />
     <Routes>
       <Route path={ routes.home } element={<PageHome />} />
       <Route path={ routes.ourwork } element={<PageOurWork />} />
@@ -33,7 +35,7 @@ export default function App() {
       <Route path={ routes.projectBillReynolds } element={<PageBillReynolds />} />
       <Route path={ routes.projectEastDouglas } element={<PageEastDouglas />} />
       <Route path={ routes.projectRiverWalk } element={<PageRiverWalk />} />
-      <Route path={ routes.projectWetlandWasteWater } element={<PageWetlandWasteWater />} />
+      <Route path={ routes.projectWetlandWasteWater } element={<PageWetland />} />
     </Routes>
     <Footer/>
   </>;

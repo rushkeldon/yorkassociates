@@ -4,7 +4,10 @@
 @heightTitle : 65px;
 
 .project-links {
-  text-align : center;
+  display : grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap : 10px;
   .project-link {
     position : relative;
     display : inline-block;

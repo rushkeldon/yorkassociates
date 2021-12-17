@@ -1,12 +1,16 @@
 import React from 'react';
+
+import imgOffice from '../../../img/office.jpg';
+
 import './PageAbout.css';
 
 export default function PageAbout() {
+
   return <>
     <div className="page page-about">
       <h1>About Us</h1>
       <img
-        src="img/office.jpg"
+        src={ imgOffice }
         alt="York & Associates Engineering Inc Offices"
       />
       <h2>We are committed to providing the best solutions.</h2>

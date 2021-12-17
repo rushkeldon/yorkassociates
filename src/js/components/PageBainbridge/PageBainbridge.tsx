@@ -1,11 +1,13 @@
 import React from 'react';
-import './PageBainbridge.css';
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
 import { projects } from '../../data/consts';
 
 import imgHero from '../../../img/bainbridge/bainbridge_hero_600.jpg';
 
+import './PageBainbridge.css';
+
 export default function PageBainbridge() {
+
   return <>
     <div className="page page-project page-bainbridge">
       <h1>Bainbridge High School Water & Sewer Improvements</h1>
