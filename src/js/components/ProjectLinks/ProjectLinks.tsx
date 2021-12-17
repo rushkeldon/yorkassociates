@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { routes, projects } from '../../data/consts';
 
+import Image from '../Image/Image';
+
 import imgBainbridge from '../../../img/bainbridge/thumb_bainbridge_hs.jpg';
 import imgEastDouglas from '../../../img/eastdouglas/thumb_east_douglas.jpg';
 import imgRiverwalk from '../../../img/riverwalk/thumb_riverwalk_trail.jpg';
@@ -25,7 +27,7 @@ export default function ProjectLinks( {
     { !excludes.includes( projects.bainbridge ) && <Link
         className={ `project-link` }
         to={routes.projectBainbridge}>
-        <img
+        <Image
           src={imgBainbridge}
           alt=""
         />
@@ -36,7 +38,7 @@ export default function ProjectLinks( {
     { !excludes.includes( projects.eastdouglas ) && <Link
         className={ `project-link` }
         to={ routes.projectEastDouglas }>
-        <img
+        <Image
           src={imgEastDouglas}
           alt=""
         />
@@ -47,7 +49,7 @@ export default function ProjectLinks( {
     { !excludes.includes( projects.riverwalk ) && <Link
         className={ `project-link` }
         to={ routes.projectRiverWalk }>
-        <img
+        <Image
           src={imgRiverwalk}
           alt=""
         />
@@ -58,7 +60,7 @@ export default function ProjectLinks( {
     { !excludes.includes( projects.billreynolds ) && <Link
         className={ `project-link` }
         to={ routes.projectBillReynolds }>
-        <img
+        <Image
           src={imgBillReynolds}
           alt=""
         />
@@ -69,7 +71,7 @@ export default function ProjectLinks( {
     { !excludes.includes( projects.wetland ) && <Link
         className={ `project-link` }
         to={ routes.projectWetlandWasteWater }>
-        <img
+        <Image
           src={imgWetland}
           alt=""
         />
@@ -80,7 +82,7 @@ export default function ProjectLinks( {
     { !excludes.includes( projects.arlington ) && <Link
         className={ `project-link` }
         to={ routes.projectArlington }>
-        <img
+        <Image
           src={imgArlington}
           alt=""
         />

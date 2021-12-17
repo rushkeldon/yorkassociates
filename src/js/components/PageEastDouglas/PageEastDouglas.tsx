@@ -10,14 +10,15 @@ import img2 from '../../../img/eastdouglas/project_shot_east_douglas_2.jpg';
 import img3 from '../../../img/eastdouglas/project_shot_east_douglas_3.jpg';
 import img4 from '../../../img/eastdouglas/project_shot_east_douglas_4.jpg';
 import ImageGrid from '../ImageGrid/ImageGrid';
+import Image from '../Image/Image';
 
 export default function PageEastDouglas() {
   return <>
     <div className="page page-project page-bainbridge">
       <h1>East Douglas Sanitary Sewer</h1>
-      <img
+      <Image
         className="hero"
-        src={imgHero}
+        src={ imgHero }
         alt=""
       />
       <h2>Overview</h2>

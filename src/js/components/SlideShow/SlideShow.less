@@ -8,6 +8,11 @@
   top: @heightHeader;
   overflow: hidden;
   height: 600px;
+  opacity : 0;
+  .Transition( opacity, 0.5s, ease-in );
+  &.first-img-loaded {
+    opacity : 1;
+  }
   @media @queryMedium {
     height: 400px;
     top : @heightHeaderShort;
@@ -28,7 +33,7 @@
     width: 550px;
     object-fit: contain;
     max-width: 100%;
-    z-index: 100;
+    z-index: @zBelowChrome;
     @media @queryMedium {
       height: 50%;
       top: 24%;

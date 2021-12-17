@@ -15,10 +15,12 @@ export default function SlideShow( {
 } : props ) {
 
   const [ slideIndex, setSlideIndex ] = useState<number>( -1 );
+  const [ isFirstImgLoaded, setIsFirstImageLoaded ] = useState<boolean>( false );
+
   const stageRef = useRef<HTMLDivElement>( document.createElement( 'div' ) );
 
   return <div
-    className="slide-show"
+    className={ `slide-show${ isFirstImgLoaded ? ' first-img-loaded' : '' }` }
   >
     <div className="msg">
       <h1>{ h1 }</h1>
@@ -36,7 +38,10 @@ export default function SlideShow( {
         alt=""
         className={ getSlideClassName( i ) }
         onAnimationEnd={ slideAnimationEnded }
-        onLoad={ i === 0 ? () => setSlideIndex( 0 ) : noop }
+        onLoad={ i === 0 ? () => {
+          setIsFirstImageLoaded( true );
+          setSlideIndex( 0 );
+        } : noop }
       /> ) }
     </div>
   </div>;

@@ -9,15 +9,16 @@ import img1 from '../../../img/riverwalk/riverwalk_form.jpg';
 import img2 from '../../../img/riverwalk/riverwalk_planking.jpg';
 import img3 from '../../../img/riverwalk/riverwalk_crane.jpg';
 import img4 from '../../../img/riverwalk/riverwalk_bridge.jpg';
+import Image from '../Image/Image';
 
 export default function PageRiverWalk() {
 
   return <>
     <div className="page page-project page-bainbridge">
       <h1>Riverwalk Trail</h1>
-      <img
+      <Image
         className="hero"
-        src={imgHero}
+        src={ imgHero }
         alt=""
       />
       <h2>Overview</h2>

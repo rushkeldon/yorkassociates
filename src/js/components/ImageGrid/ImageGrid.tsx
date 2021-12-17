@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '../Image/Image';
 
 import './ImageGrid.css';
 
@@ -14,7 +15,7 @@ export default function ImageGrid( {
     { imgURLs.map( ( url, i ) => <div
       key={ i }
       className={ i === imgURLs.length - 1 ? 'landscape' : '' } >
-        <img
+        <Image
           src={ url }
           alt=""
         />

@@ -5,15 +5,17 @@ import { projects } from '../../data/consts';
 import imgHero from '../../../img/bainbridge/bainbridge_hero_600.jpg';
 
 import './PageBainbridge.css';
+import Image from '../Image/Image';
+import imgOffice from '../../../img/office.jpg';
 
 export default function PageBainbridge() {
 
   return <>
     <div className="page page-project page-bainbridge">
       <h1>Bainbridge High School Water & Sewer Improvements</h1>
-      <img
+      <Image
         className="hero"
-        src={imgHero}
+        src={ imgHero }
         alt=""
       />
       <h2>Overview</h2>

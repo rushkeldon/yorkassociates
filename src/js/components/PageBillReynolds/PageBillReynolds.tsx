@@ -12,15 +12,16 @@ import img4 from '../../../img/billreynolds/billreynolds_between_fields.jpg';
 import img5 from '../../../img/billreynolds/billreynolds_tennis_court.jpg';
 
 import './PageBillReynolds.css';
+import Image from '../Image/Image';
 
 export default function PageBillReynolds() {
 
   return <>
     <div className="page page-project page-bainbridge">
       <h1>Bill Reynolds Sports Complex</h1>
-      <img
+      <Image
         className="hero"
-        src={imgHero}
+        src={ imgHero }
         alt=""
       />
       <h2>Overview</h2>

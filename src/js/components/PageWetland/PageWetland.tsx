@@ -9,15 +9,16 @@ import img1 from '../../../img/wetland/wetland_sprinkler_close.jpg';
 
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
 import { projects } from '../../data/consts';
+import Image from '../Image/Image';
 
 export default function PageWetland() {
 
   return <>
     <div className="page page-project page-bainbridge">
       <h1>Wetland Wastewater Treatment Facility Improvements</h1>
-      <img
+      <Image
         className="hero"
-        src={imgHero}
+        src={ imgHero }
         alt=""
       />
       <h2>Overview</h2>
