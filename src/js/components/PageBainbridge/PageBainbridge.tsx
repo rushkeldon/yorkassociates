@@ -7,8 +7,7 @@ import imgHero from '../../../img/bainbridge/bainbridge_hero_600.jpg';
 
 export default function PageBainbridge() {
   return <>
-
-    <div className="page page-bainbridge">
+    <div className="page page-project page-bainbridge">
       <h1>Bainbridge High School Water & Sewer Improvements</h1>
       <img
         className="hero"

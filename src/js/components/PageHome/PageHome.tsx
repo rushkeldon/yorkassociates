@@ -3,10 +3,10 @@ import './PageHome.css';
 import SlideShow from '../SlideShow/SlideShow';
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
 
-import img0 from '../../../img/aerial.png';
-import img1 from '../../../img/cutting_metal.png';
-import img2 from '../../../img/doe_run.png';
-import img3 from '../../../img/ped_bridge.png';
+import img0 from '../../../img/slideshow/aerial.png';
+import img1 from '../../../img/slideshow/cutting_metal.png';
+import img2 from '../../../img/slideshow/doe_run.png';
+import img3 from '../../../img/slideshow/ped_bridge.png';
 
 export default function PageHome() {
   return <>

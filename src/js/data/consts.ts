@@ -22,8 +22,3 @@ export enum routes {
   projectWetlandWasteWater = '/york/ourwork/wetland'
 }
 
-export enum paths {
-
-}
-
-

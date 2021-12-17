@@ -7,7 +7,6 @@ import PageAbout from '../PageAbout/PageAbout';
 import PageBidding from '../PageBidding/PageBidding';
 import PageContact from '../PageContact/PageContact';
 import { routes } from '../../data/consts';
-import './App.css';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import PageArlington from '../PageArlington/PageArlington';
@@ -16,6 +15,8 @@ import PageBillReynolds from '../PageBillReynolds/PageBillReynolds';
 import PageEastDouglas from '../PageEastDouglas/PageEastDouglas';
 import PageRiverWalk from '../PageRiverWalk/PageRiverWalk';
 import PageWetlandWasteWater from '../PageWetlandWasteWater/PageWetlandWasteWater';
+
+import './App.css';
 
 export default function App() {
   return <>

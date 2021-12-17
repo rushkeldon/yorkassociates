@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { routes, projects } from '../../data/consts';
 
-import imgBainbridge from '../../../img/thumb_bainbridge_hs.jpg';
-import imgEastDouglas from '../../../img/thumb_east_douglas.jpg';
-import imgRiverwalk from '../../../img/thumb_riverwalk_trail.jpg';
-import imgBillReynolds from '../../../img/thumb_bill_reynolds.jpg';
-import imgWetland from '../../../img/thumb_wetland_wastewater.jpg';
-import imgArlington from '../../../img/thumb_arlington_demo.jpg';
+import imgBainbridge from '../../../img/bainbridge/thumb_bainbridge_hs.jpg';
+import imgEastDouglas from '../../../img/eastdouglas/thumb_east_douglas.jpg';
+import imgRiverwalk from '../../../img/riverwalk/thumb_riverwalk_trail.jpg';
+import imgBillReynolds from '../../../img/billreynolds/thumb_bill_reynolds.jpg';
+import imgWetland from '../../../img/wetland/thumb_wetland_wastewater.jpg';
+import imgArlington from '../../../img/arlington/thumb_arlington_demo.jpg';
 
 import './ProjectLinks.css';
 

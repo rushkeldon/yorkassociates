@@ -1,0 +1,1 @@
+.image-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:1fr auto;gap:10px}.image-grid div{display:inline-block}.image-grid div img{width:100%;height:100%;object-fit:cover;grid-column-end:span 1}.image-grid div img.landscape{grid-column-end:span 2}
