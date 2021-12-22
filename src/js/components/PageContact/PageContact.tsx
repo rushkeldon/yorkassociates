@@ -10,7 +10,6 @@ export default function PageContact() {
     <div className="page page-contact">
       <h1>Contact Us</h1>
       <p>We look forward to helping you find solutions that meet your specific design goals and project needs. If you have any questions about services, capabilities, or projects, please contact us today!</p>
-
       <div className="location">
         <div className="meta">
           <h2>Our Office</h2>
@@ -20,7 +19,8 @@ export default function PageContact() {
           />
           <p>308 E. Water Street<br/>
             Bainbridge, Ga 39817<br/>
-            Phone: 229.248.0141</p>
+          </p>
+          <a href="tel:2292480141">229-248-0141</a>
           <a href="mailto:info@yorkassociates.net">info@yorkassociates.net</a>
         </div>
         <div className="map">
@@ -33,7 +33,6 @@ export default function PageContact() {
           />
         </div>
       </div>
-      <ContactForm/>
     </div>
   </>;
 }
