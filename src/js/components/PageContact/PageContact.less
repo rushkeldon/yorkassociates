@@ -15,7 +15,7 @@
     margin-top : 50px;
     width : 100%;
     height : 400px;
-    .left {
+    .meta {
       position : absolute;
       white-space: nowrap;
       left : 0px;
@@ -29,13 +29,15 @@
         width : 100%;
       }
     }
-    .right {
+    .map {
       position : absolute;
       right : 0px;
       top : 0px;
       height : 100%;
       width : 70%;
       iframe {
+        opacity : 0;
+        .Transition( opacity, 0.5s, ease-in );
         position : absolute;
         right: 0px;
         top: 0px;
@@ -43,6 +45,9 @@
         height : 100%;
         margin : 0px;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        &.loaded {
+          opacity : 1;
+        }
       }
     }
 
