@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactForm from '../ContactForm/ContactForm';
+import imgOffice from '../../../img/office.jpg';
 
 import './PageContact.css';
 
@@ -12,6 +13,10 @@ export default function PageContact() {
       <div className="location">
         <div className="left">
           <h2>Our Office</h2>
+          <img
+            src={imgOffice}
+            alt=""
+          />
           <p>308 E. Water Street<br/>
             Bainbridge, Ga 39817<br/>
             Phone: 229.248.0141</p>
