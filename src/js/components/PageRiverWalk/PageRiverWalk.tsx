@@ -14,7 +14,7 @@ import Image from '../Image/Image';
 export default function PageRiverWalk() {
 
   return <>
-    <div className="page page-project page-bainbridge">
+    <div className="page  page-bainbridge">
       <h1>Riverwalk Trail</h1>
       <Image
         className="hero"

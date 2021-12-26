@@ -1,10 +1,10 @@
 import React from 'react';
 
+import Image from '../Image/Image';
+
 import imgOffice from '../../../img/office.jpg';
 
 import './PageAbout.css';
-import Image from '../Image/Image';
-import imgHero from '../../../img/arlington/arlington_hero.jpg';
 
 export default function PageAbout() {
 
@@ -15,7 +15,6 @@ export default function PageAbout() {
         src={ imgOffice }
         alt="York & Associates Engineering Inc Offices"
       />
-
       <h2>We are committed to providing the best solutions.</h2>
       <p>York & Associates Engineering has been providing engineering, surveying/mapping, and technical services to governmental authorities, municipalities, commercial, industrial, and private sectors since 2003. We are committed to developing innovative, efficient and cost-effective solutions and always work in our clients’ best interests.</p>
       <h2>Our Mission</h2>

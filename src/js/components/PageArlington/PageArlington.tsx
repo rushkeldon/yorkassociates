@@ -18,7 +18,7 @@ import imgWetland from '../../../img/wetland/thumb_wetland_wastewater.jpg';
 export default function PageArlington() {
 
   return <>
-    <div className="page page-project page-bainbridge">
+    <div className="page page-bainbridge">
       <h1>Arlington Demolition</h1>
       <Image
         className="hero"

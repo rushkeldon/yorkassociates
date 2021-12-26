@@ -58,17 +58,6 @@ body, html {
   padding-top : @heightHeader;
   min-height : 60vh;
   // border : 1px solid darkgreen;
-
-  @media @queryMedium {
-    padding-top : @heightHeaderShort;
-  }
-
-  @media @querySmall {
-    padding-top : @heightHeaderShort;
-  }
-}
-
-.page-project {
   .hero {
     width : 100%;
   }
@@ -95,6 +84,13 @@ body, html {
         line-height: 49px;
       }
     }
+  }
+  @media @queryMedium {
+    padding-top : @heightHeaderShort;
+  }
+
+  @media @querySmall {
+    padding-top : @heightHeaderShort;
   }
 }
 

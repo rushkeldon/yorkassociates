@@ -11,7 +11,7 @@ import imgOffice from '../../../img/office.jpg';
 export default function PageBainbridge() {
 
   return <>
-    <div className="page page-project page-bainbridge">
+    <div className="page page-bainbridge">
       <h1>Bainbridge High School Water & Sewer Improvements</h1>
       <Image
         className="hero"

@@ -22,3 +22,4 @@ export enum routes {
   projectWetlandWasteWater = '/york/ourwork/wetland'
 }
 
+export const baseURL : string = 'https://appcloud9.com/';//`${ window.location.protocol }//${ window.location.host }/`;

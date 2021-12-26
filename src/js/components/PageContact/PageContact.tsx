@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactForm from '../ContactForm/ContactForm';
 import imgOffice from '../../../img/office.jpg';
 import Image from '../Image/Image';
 
@@ -9,7 +8,8 @@ export default function PageContact() {
   return <>
     <div className="page page-contact">
       <h1>Contact Us</h1>
-      <p>We look forward to helping you find solutions that meet your specific design goals and project needs. If you have any questions about services, capabilities, or projects, please contact us today!</p>
+      <p>We look forward to helping you find solutions that meet your specific design goals and project needs.<br/>
+        If you have any questions about services, capabilities, or projects, please contact us today!</p>
       <div className="location">
         <div className="meta">
           <h2>Our Office</h2>

@@ -14,7 +14,7 @@ import Image from '../Image/Image';
 export default function PageWetland() {
 
   return <>
-    <div className="page page-project page-bainbridge">
+    <div className="page page-bainbridge">
       <h1>Wetland Wastewater Treatment Facility Improvements</h1>
       <Image
         className="hero"

@@ -17,7 +17,7 @@ import Image from '../Image/Image';
 export default function PageBillReynolds() {
 
   return <>
-    <div className="page page-project page-bainbridge">
+    <div className="page page-bainbridge">
       <h1>Bill Reynolds Sports Complex</h1>
       <Image
         className="hero"
