@@ -13,13 +13,9 @@ import imgMuni2 from '../../../img/services/services_municipal_2.jpg';
 import imgMuni3 from '../../../img/services/services_municipal_3.jpg';
 import imgMuni4 from '../../../img/services/services_municipal_4.jpg';
 import imgSurveying0 from '../../../img/services/services_surveying_0.jpg';
-import imgTrans0 from '../../../img/services/services_transportation_0.jpg';
-import imgTrans1 from '../../../img/services/services_transportation_1.jpg';
-import imgTrans2 from '../../../img/services/services_transportation_2.jpg';
 
 import './PageServices.css';
 import Image from '../Image/Image';
-import imgOffice from '../../../img/office.jpg';
 
 export default function PageServices() {
   return <>

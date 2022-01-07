@@ -1,5 +1,4 @@
 import React from 'react';
-import './PageRiverWalk.css';
 import imgHero from '../../../img/riverwalk/riverwalk_hero.jpg';
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
 import { projects } from '../../data/consts';
@@ -11,10 +10,12 @@ import img3 from '../../../img/riverwalk/riverwalk_crane.jpg';
 import img4 from '../../../img/riverwalk/riverwalk_bridge.jpg';
 import Image from '../Image/Image';
 
+import './PageRiverWalk.css';
+
 export default function PageRiverWalk() {
 
   return <>
-    <div className="page  page-bainbridge">
+    <div className="page page-river-walk">
       <h1>Riverwalk Trail</h1>
       <Image
         className="hero"

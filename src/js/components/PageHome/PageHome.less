@@ -2,11 +2,13 @@
 @import "../../../css/mixins.less";
 
 @topGutter : 30px;
+@maxWidthPageHome : 1442px;
 
 .page {
   &.page-home {
     max-width : 1442px;
     padding-top : @heightHeader + @heightHero + @topGutter;
+    margin-bottom : 40px;
     @media @queryMedium {
       padding-top : @heightHeaderShort + @heightHeroMedium + @topGutter;
     }
@@ -15,6 +17,10 @@
     }
     .project-links {
       grid-template-columns: repeat(3, 1fr);
+      .project-link {
+        width : ( @maxWidthPageHome / 3 ) - 40px;
+        height : 350px;
+      }
     }
   }
 }

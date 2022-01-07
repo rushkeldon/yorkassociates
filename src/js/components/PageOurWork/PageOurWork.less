@@ -1,12 +1,25 @@
 @import "../../../css/vars.less";
 @import "../../../css/mixins.less";
 
+@topGutter : 30px;
+@maxWidthPageHome : 1442px;
+
 .page {
   &.page-our-work {
     max-width : 1442px;
+    margin-bottom : 40px;
+    @media @queryMedium {
+      padding-top : @heightHeaderShort + @heightHeroMedium + @topGutter;
+    }
+    @media @querySmall {
+      padding-top : @heightHeaderShort + @heightHeroShort + @topGutter;
+    }
     .project-links {
       grid-template-columns: repeat(3, 1fr);
+      .project-link {
+        width : ( @maxWidthPageHome / 3 ) - 40px;
+        height : 350px;
+      }
     }
   }
 }
-

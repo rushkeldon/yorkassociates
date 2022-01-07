@@ -18,7 +18,6 @@ export default function Image( {
     src={ src }
     alt={ alt }
     onLoad={ e => {
-      console.log( `image loaded : ${ src }` );
       ( e.target as HTMLImageElement ).classList.add( 'loaded' );
     } }
   />

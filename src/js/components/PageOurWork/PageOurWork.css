@@ -1,1 +1,1 @@
-.page.page-our-work{max-width:1442px}.page.page-our-work .project-links{grid-template-columns:repeat(3,1fr)}
+.page.page-our-work{max-width:1442px;margin-bottom:40px}@media screen and (min-width:768px) and (max-width:1099px){.page.page-our-work{padding-top:488px}}@media screen and (max-width:767px){.page.page-our-work{padding-top:388px}}.page.page-our-work .project-links{grid-template-columns:repeat(3,1fr)}.page.page-our-work .project-links .project-link{width:440.67px;height:350px}
