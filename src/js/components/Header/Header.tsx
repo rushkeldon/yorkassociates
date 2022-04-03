@@ -38,10 +38,15 @@ export default function Header() {
           to={routes.contact}>Contact
         </Link>
       </div>
-      <img
-        className="logo"
-        src={imgMasthead}
-        alt=""
-      />
+      <Link
+        className={ `nav-item${ pathname === routes.home ? ' active' : '' }` }
+        to={routes.home}>
+        <img
+          className="logo"
+          src={imgMasthead}
+          alt=""
+        />
+      </Link>
+
     </header>;
 }

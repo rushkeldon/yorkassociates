@@ -2,11 +2,11 @@ import React from 'react';
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
 import { projects } from '../../data/consts';
 
+import Image from '../Image/Image';
+
 import imgHero from '../../../img/bainbridge/bainbridge_hero_600.jpg';
 
 import './PageBainbridge.css';
-import Image from '../Image/Image';
-import imgOffice from '../../../img/office.jpg';
 
 export default function PageBainbridge() {
 

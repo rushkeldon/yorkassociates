@@ -5,7 +5,7 @@ import './Footer.css';
 export default function Footer(){
   return <div className="footer">
     <div className="tri">
-      <strong>COMPANY DATA</strong>
+      <h3>Company Data</h3>
       <div className="data">
         <p>DUNS Number: 148976314</p>
         <p>Core NAICS: 541330</p>
@@ -13,7 +13,7 @@ export default function Footer(){
       </div>
     </div>
     <div className="tri">
-      <strong>CERTIFICATIONS</strong>
+      <h3>Certifications</h3>
       <div className="data">
         <p>• SBA 8(a)</p>
         <p>• SBA EDWOSB</p>
@@ -21,12 +21,19 @@ export default function Footer(){
       </div>
     </div>
     <div className="tri">
-      <strong>GDOT QUALIFICATIONS</strong>
+      <h3>GDOT Qualifications</h3>
       <div className="data">
         <p>3.01, 3.13, 5.01, 5.02, 8.01, and 9.01</p>
       </div>
     </div>
-   <p className="copyright">© 2021. York & Associates Engineering, Inc. 308 E. Water Street, Bainbridge, Georgia 39817</p>
+    <div className="tri">
+      <h3>Our Contact</h3>
+      <div className="data">
+        <p>308 E. Water Street, Bainbridge, Georgia 39817</p>
+        <a href="tel:2292480141">229.248.0141</a>
+        <p>Copyright © 2022 York & Associates Engineering, Inc. All rights reserved.</p>
+      </div>
+    </div>
   </div>
 }
 

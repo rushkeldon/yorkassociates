@@ -9,7 +9,7 @@
   overflow: hidden;
   height: 600px;
   opacity : 0;
-  .Transition( opacity, 0.5s, ease-in );
+  .Transition( opacity, 0.2s, ease-in );
   &.first-img-loaded {
     opacity : 1;
   }
@@ -25,45 +25,66 @@
   .msg {
     color: @clrBG0;
     position: absolute;
-    height: 50%;
-    top: 24%;
+    display: block;
+    height: 75%;
+    top: 0%;
     bottom: 24%;
-    left: 100px;
+    left: 5%;
     right: 0px;
-    width: 550px;
+    width: 480px;
+    background-color: rgba(0, 0, 0, 0.5);
     object-fit: contain;
     max-width: 100%;
     z-index: @zBelowChrome;
     @media @queryMedium {
-      height: 50%;
-      top: 24%;
-      bottom: 24%;
-      left: 40px;
+      height: 100%;
+      top: 0%;
+      bottom: 0%;
+      left: 5%;
+      width: 50%;
     }
 
     @media @querySmall {
-      height : 70%;
-      top: 15%;
-      bottom: 15%;
-      left: 10px;
+      height : 100%;
+      top: 0%;
+      bottom: 0%;
+      left: 0%;
     }
     h1 {
-      font-size: 50px;
+      font-size: 44px;
       margin-block-end: 0;
-      .TextShadow();
+      margin-top: 15%;
+      margin-left: 5%;
+      white-space: pre-wrap;
+
       @media @queryMedium {
         font-size: 40px;
+        margin-top: 10%;
+        margin-left: 5%;
       }
 
       @media @querySmall {
         font-size: 30px;
+        margin-top: 8%;
+        margin-left: 5%;
       }
     }
     p {
       font-size: 20px;
       font-weight: 550;
-      .TextShadow();
+      margin-left: 5%;
+
+      @media @queryMedium {
+        font-size: 18px;
+        margin-left: 5%;
+      }
+
+      @media @querySmall {
+        font-size: 16px;
+        margin-left: 5%;
+      }
     }
+
   }
   .stage {
     position: absolute;

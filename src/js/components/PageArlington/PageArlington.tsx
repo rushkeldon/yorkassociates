@@ -13,7 +13,6 @@ import img4 from '../../../img/arlington/arlington_plaque.jpg';
 
 import './PageArlington.css';
 import Image from '../Image/Image';
-import imgWetland from '../../../img/wetland/thumb_wetland_wastewater.jpg';
 
 export default function PageArlington() {
 
