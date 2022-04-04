@@ -10,6 +10,22 @@ export default function PageBidding() {
       <div className="hr"/>
       <h2>Town of Ochlocknee</h2>
       <h3>Project Name</h3>
+      <p>Sewer Pump Station Generators - Clean Water State Revolving Fund - CW20002</p>
+      <h3>Project Number</h3>
+      <p>#2021-12</p>
+      <h3>Bid Date</h3>
+      <p>February 10, 2022</p>
+      <h3>Work to Be Done</h3>
+      <p>Construction and installation of generators on concrete pads for existing Pump Stations with associated electrical controls, wiring, and other miscellaneous appurtenances as shown on the plans or specified in the contract documents</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_sewer_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_sewer_plan_holders_list.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_sewer_bid_result.pdf`}>Bid Results</a></li>
+      </ul>
+      <div className="hr"/>
+      <h2>Town of Ochlocknee</h2>
+      <h3>Project Name</h3>
       <p>Elevated Water Storage Tank and Water Treatment Building</p>
       <h3>Project Number</h3>
       <p>#2020-09</p>

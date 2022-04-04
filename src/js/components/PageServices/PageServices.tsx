@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ImageGrid from '../ImageGrid/ImageGrid';
 
 import imgDev0 from '../../../img/services/services_dev_0.jpg';
@@ -12,16 +12,42 @@ import imgMuni1 from '../../../img/services/services_municipal_1.jpg';
 import imgMuni2 from '../../../img/services/services_municipal_2.jpg';
 import imgMuni3 from '../../../img/services/services_municipal_3.jpg';
 import imgMuni4 from '../../../img/services/services_municipal_4.jpg';
+import imgTrans0 from '../../../img/services/services_trans_0.jpg';
+import imgTrans1 from '../../../img/services/services_trans_1.jpg';
+import imgTrans2 from '../../../img/services/services_trans_2.jpg';
 import imgSurveying0 from '../../../img/services/services_surveying_0.jpg';
 
 import './PageServices.css';
 import Image from '../Image/Image';
+import { services } from '../../data/consts';
 
 export default function PageServices() {
+
+  useEffect( () => {
+    window.setTimeout( () => {
+      const anchorID = window.document.location.hash.substring( 1 )  || '';
+      console.log( 'anchorID :', anchorID );
+
+      if( !anchorID ) return;
+      const target : HTMLElement = window.document.getElementById( anchorID ) as HTMLElement;
+
+      if( !target ) return;
+      const buffer = 90;
+      const rect : DOMRect = target.getBoundingClientRect();
+      const root = window.document.getElementById( 'root' ) as HTMLDivElement;
+      root.scrollTop += ( Math.ceil( rect.y ) - buffer );
+    }, 250 );
+  } );
+
   return <>
     <div className="page page-services">
       <h1>Our Services</h1>
       <p>For over 15 years, we've been partnering with communities and clients in providing cost-effective, low-maintenance, and enduring solutions.</p>
+      <div className="hr"/>
+      <h2 id={services.muni}>Municipal</h2>
+      <p>We offer engineering solutions to our municipal clients that focus on practicality, cost-saving features, low-maintenance, and viable design. Our highly qualified team with years of
+        experience enables us to provide our clients from initial project planning through design and completion of construction.
+      </p>
       <ImageGrid
         imgURLs={ [
           imgMuni0,
@@ -31,10 +57,6 @@ export default function PageServices() {
           imgMuni4
         ] }
       />
-      <h2>Municipal</h2><a id="municipal"/>
-      <p>We offer engineering solutions to our municipal clients that focus on practicality, cost-saving features, low-maintenance, and viable design. Our highly qualified team with years of
-        experience enables us to provide our clients from initial project planning through design and completion of construction.
-      </p>
       <h3>Services</h3>
       <ul>
         <li>Planning & Layout</li>
@@ -48,17 +70,15 @@ export default function PageServices() {
         <li>Construction Management</li>
       </ul>
       <div className="hr"/>
+      <h2 id={services.trans}>Transportation</h2>
+      <p>We provide full support from concept to completion.</p>
       <ImageGrid
         imgURLs={ [
-          imgMuni0,
-          imgMuni1,
-          imgMuni2,
-          imgMuni3,
-          imgMuni4
+          imgTrans0,
+          imgTrans1,
+          imgTrans2
         ] }
       />
-      <h2>Transportation</h2><a id="transportation"/>
-      <p>We provide full support from concept to completion.</p>
       <h3>Services</h3>
       <ul>
         <li>City street improvements</li>
@@ -73,6 +93,9 @@ export default function PageServices() {
         <li>Trails & pedestrian bridges</li>
       </ul>
       <div className="hr"/>
+      <h2 id={services.water}>Water Resources & Environmental Engineering</h2>
+      <p>We are committed to providing cost-effective solutions that allow our clients to improve and revitalize the infrastructure and environment as well as to protect public health and well-being.
+      </p>
       <ImageGrid
         imgURLs={ [
           imgEnviro0,
@@ -80,9 +103,6 @@ export default function PageServices() {
           imgEnviro2
         ] }
       />
-      <h2>Water Resources & Environmental Engineering</h2><a id="water"/>
-      <p>We are committed to providing cost-effective solutions that allow our clients to improve and revitalize the infrastructure and environment as well as to protect public health and well-being.
-      </p>
       <h3>Water Pipelines, Supply, Treatment & Storage Services</h3>
       <ul>
         <li>Water Distribution system design</li>
@@ -117,6 +137,8 @@ export default function PageServices() {
         <li>Surface Mining</li>
       </ul>
       <div className="hr"/>
+      <h2 id={services.site}>Site Design & Land Development</h2>
+      <p>With decades of experience in site design & land development, we offer great insight into the design details that can make a significant difference in construction cost and durability.</p>
       <ImageGrid
         imgURLs={ [
           imgDev0,
@@ -124,8 +146,6 @@ export default function PageServices() {
           imgDev2
         ] }
       />
-      <h2>Site Design & Land Development</h2><a id="site"/>
-      <p>With decades of experience in site design & land development, we offer great insight into the design details that can make a significant difference in construction cost and durability.</p>
       <h3>Services</h3>
       <ul>
         <li>Site Planning & Design</li>
@@ -143,7 +163,7 @@ export default function PageServices() {
         src={ imgSurveying0 }
         alt=""
       />
-      <h2>Surveying</h2><a id="surveying"/>
+      <h2 id={services.survey}>Surveying</h2>
       <p>To support our designs and surveys, we are equipped with the state-of-the-art surveying equipment including the 3 seconds angular accuracy Robotic Total Station,  and make use of today’s most advanced GPS with centimeter-level accuracy positioning Global Navigation Satellite System (GNSS) Real Time Kinematic(RTK) receiver to collect information about the physical world.</p>
       <h3>Types Of Survey Services</h3>
       <ul>

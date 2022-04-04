@@ -8,10 +8,10 @@ export enum projects {
 }
 
 export enum services {
-  municipal = 'municipal',
-  transportation = 'transportation',
-  waterresource = 'waterresource',
-  sitedesign = 'sitedesign',
+  muni = 'muni',
+  trans = 'trans',
+  water = 'water',
+  site = 'site',
   survey = 'survey'
 }
 
@@ -28,11 +28,11 @@ export enum routes {
   projectEastDouglas = '/york/ourwork/eastdouglas',
   projectRiverWalk = '/york/ourwork/riverwalk',
   projectWetlandWasteWater = '/york/ourwork/wetland',
-  serviceMunicipal = '/york/services',
-  serviceTransportation = '/york/services',
-  serviceWaterResource = '/york/services',
-  serviceSiteDesign = '/york/services',
-  serviceSurvey = '/york/services'
+  servicesMuni = '/york/services#muni',
+  servicesTrans = '/york/services#trans',
+  servicesWater = '/york/services#water',
+  servicesSite = '/york/services#site',
+  servicesSurvey = '/york/services#survey',
 }
 
 export const baseURL : string = 'https://appcloud9.com/';//`${ window.location.protocol }//${ window.location.host }/`;

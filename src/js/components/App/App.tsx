@@ -24,6 +24,7 @@ export default function App() {
     <Header/>
     <ScrollToTop />
     <Routes>
+      <Route path="*" element={<PageHome />} />
       <Route path={ routes.home } element={<PageHome />} />
       <Route path={ routes.ourwork } element={<PageOurWork />} />
       <Route path={ routes.services } element={<PageServices />} />
@@ -36,6 +37,11 @@ export default function App() {
       <Route path={ routes.projectEastDouglas } element={<PageEastDouglas />} />
       <Route path={ routes.projectRiverWalk } element={<PageRiverWalk />} />
       <Route path={ routes.projectWetlandWasteWater } element={<PageWetland />} />
+      <Route path={ routes.servicesMuni } element={<PageServices />} />
+      <Route path={ routes.servicesTrans } element={<PageServices />} />
+      <Route path={ routes.servicesWater } element={<PageServices />} />
+      <Route path={ routes.servicesSite } element={<PageServices />} />
+      <Route path={ routes.servicesSurvey } element={<PageServices />} />
     </Routes>
     <Footer/>
   </>;
