@@ -12,6 +12,7 @@ export default function Header() {
   return <header
       className="header"
     >
+
       <div className="nav">
         <Link
           className={ `nav-item${ pathname === routes.home ? ' active' : '' }` }

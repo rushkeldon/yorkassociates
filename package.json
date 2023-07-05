@@ -12,7 +12,11 @@
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "@types/signals": "^1.0.1",
-
+    "concurrently": "^6.4.0",
+    "less": "^4.1.2",
+    "less-plugin-autoprefix": "^2.0.0",
+    "less-plugin-clean-css": "^1.5.1",
+    "less-watch-compiler": "^1.16.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.0.2",
@@ -31,22 +35,8 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "concurrently": "^6.4.0",
-    "less": "^4.1.2",
-    "less-watch-compiler": "^1.16.3",
-    "less-plugin-clean-css": "^1.5.1"
-  }
+  "browserslist": [
+    "last 10 versions",
+    ">0.2%"
+  ]
 }

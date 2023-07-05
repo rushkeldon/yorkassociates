@@ -26,7 +26,6 @@ export default function PageServices() {
   useEffect( () => {
     window.setTimeout( () => {
       const anchorID = window.document.location.hash.substring( 1 )  || '';
-      console.log( 'anchorID :', anchorID );
 
       if( !anchorID ) return;
       const target : HTMLElement = window.document.getElementById( anchorID ) as HTMLElement;

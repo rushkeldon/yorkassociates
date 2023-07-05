@@ -5,5 +5,5 @@
   "runOnce": false,
   "enableJs": true,
   "lessArgs": "",
-  "plugins": "less-plugin-clean-css"
+  "plugins": "less-plugin-clean-css,less-plugin-autoprefix"
 }
