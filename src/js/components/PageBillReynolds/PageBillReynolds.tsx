@@ -63,7 +63,7 @@ export default function PageBillReynolds() {
         <li>Construction administration</li>
       </ul>
       <div className="hr"/>
-      <h3>See Also</h3>
+      <h3 className="project-links-title">See Also</h3>
       <ProjectLinks
         excludes={ [ projects.billreynolds ] }
       />

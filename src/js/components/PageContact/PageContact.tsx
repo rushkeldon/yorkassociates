@@ -8,8 +8,8 @@ export default function PageContact() {
   return <>
     <div className="page page-contact">
       <h1>Contact Us</h1>
-      <p>We look forward to helping you find solutions that meet your specific design goals and project needs.<br/>
-        If you have any questions about services, capabilities, or projects, please contact us today!</p>
+      <p>We look forward to helping you find solutions that meet your specific design goals and project needs.</p>
+      <p>If you have any questions about services, capabilities, or projects, please contact us today!</p>
       <div className="location">
         <div className="meta">
           <h2>Our Office</h2>

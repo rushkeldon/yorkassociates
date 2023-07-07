@@ -53,7 +53,7 @@ export default function PageEastDouglas() {
         <li>Construction administration & monitoring</li>
       </ul>
       <div className="hr"/>
-      <h3>See Also</h3>
+      <h3 className="project-links-title">See Also</h3>
       <ProjectLinks
         excludes={ [ projects.eastdouglas ] }
       />

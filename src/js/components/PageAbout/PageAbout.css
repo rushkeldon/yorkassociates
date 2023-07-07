@@ -1,1 +1,1 @@
-.page-about img{max-width:100%}.page-about p{max-width:80%}
+.page-about img{max-width:100%}@media screen and (min-width:768px) and (max-width:1099px){.page-about img{width:calc(100vw - (15px * 2))}}@media screen and (max-width:767px){.page-about img{width:calc(100vw - (15px * 2))}}.page-about p{max-width:80%}

@@ -4,6 +4,13 @@
 .page-about {
   img {
     max-width : 100%;
+    @media @queryMedium {
+      width : calc( 100vw - ( @paddingPageMobile * 2 ) );
+    }
+
+    @media @querySmall {
+      width : calc( 100vw - ( @paddingPageMobile * 2 ) );
+    }
   }
   p {
     max-width : 80%;
