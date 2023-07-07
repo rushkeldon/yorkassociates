@@ -6,6 +6,14 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr auto;
   gap : 10px;
+  @media @queryMedium {
+    grid-template-columns: repeat(2, 1fr);
+    width : calc( 100vw - @paddingPageMobile * 2 );
+  }
+  @media @querySmall {
+    grid-template-columns: repeat(2, 1fr);
+    width : calc( 100vw - @paddingPageMobile * 2 );
+  }
   div {
     display : inline-block;
     img {

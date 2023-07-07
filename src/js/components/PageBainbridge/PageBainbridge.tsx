@@ -14,7 +14,7 @@ export default function PageBainbridge() {
     <div className="page page-bainbridge">
       <h1>Bainbridge High School Water & Sewer Improvements</h1>
       <Image
-        className="hero"
+        className="hero img"
         src={ imgHero }
         alt=""
       />
@@ -43,7 +43,7 @@ export default function PageBainbridge() {
         <li>Construction administration & monitoring</li>
       </ul>
       <div className="hr"/>
-      <h3>See Also</h3>
+      <h3 className="project-links-title">See Also</h3>
       <ProjectLinks
           excludes={ [ projects.bainbridge ] }
         />

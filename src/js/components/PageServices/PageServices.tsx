@@ -159,6 +159,7 @@ export default function PageServices() {
       </ul>
       <div className="hr"/>
       <Image
+        className="img"
         src={ imgSurveying0 }
         alt=""
       />

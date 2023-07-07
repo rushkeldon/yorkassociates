@@ -20,7 +20,7 @@ export default function PageBillReynolds() {
     <div className="page page-bainbridge">
       <h1>Bill Reynolds Sports Complex</h1>
       <Image
-        className="hero"
+        className="hero img"
         src={ imgHero }
         alt=""
       />

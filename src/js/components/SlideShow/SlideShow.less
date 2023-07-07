@@ -3,24 +3,26 @@
 
 .slide-show {
   position: absolute;
-  width: 100%;
+  width: 100vw;
   left: 0px;
   top: @heightHeader;
   overflow: hidden;
-  height: 600px;
+  height: @heightHero;
   opacity : 0;
   .Transition( opacity, 0.2s, ease-in );
   &.first-img-loaded {
     opacity : 1;
   }
   @media @queryMedium {
-    height: @heightHeroShort;
+    height: @heightHeroMedium;
     top : @heightHeaderShort;
+    margin-left: -@paddingPageMobile;
   }
 
   @media @querySmall {
     height: @heightHeroShort;
     top : @heightHeaderShort;
+    margin-left: -@paddingPageMobile;
   }
   .msg {
     color: @clrBG0;
@@ -37,7 +39,7 @@
     max-width: 100%;
     z-index: @zBelowChrome;
     @media @queryMedium {
-      height: 100%;
+      height: @heightHeroShort;
       top: 0%;
       bottom: 0%;
       left: 5%;
@@ -45,7 +47,7 @@
     }
 
     @media @querySmall {
-      height : 100%;
+      height : @heightHeroShort;
       top: 0%;
       bottom: 0%;
       left: 0%;
@@ -94,9 +96,16 @@
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 100%;
+    width: 100vw;
     height: 600px;
     z-index: 0;
+    overflow : hidden;
+    @media @queryMedium {
+      height: @heightHeroShort;
+    }
+    @media @querySmall {
+      height: @heightHeroShort;
+    }
     .scrim {
       position: absolute;
       left: 0px;
@@ -114,7 +123,7 @@
       position: absolute;
       left: 0px;
       top: 0px;
-      width: 100%;
+      width: 100vw;
       object-fit: cover;
       min-height : 100%;
       transform-origin: 80% 40%;

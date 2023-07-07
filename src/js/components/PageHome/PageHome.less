@@ -35,12 +35,12 @@
         width : ( @maxWidthPageHome / 3 ) - 40px;
         height : 350px;
         @media @queryMedium {
-          width : 100vw;
-          height : 250px;
+          width : calc( 100% - ( @paddingPageMobile * 2 ) );
+          height : @heightHeroShort;
         }
         @media @querySmall {
-          width : 100vw;
-          height : 250px;
+          width : calc( 100% - ( @paddingPageMobile * 2 ) );
+          height : @heightHeroShort;
         }
       }
     }

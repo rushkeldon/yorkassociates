@@ -13,7 +13,7 @@ export default function HamburgerBtn({ onOpen, onClose }: Props) {
     e.preventDefault();
     btnRef.current?.classList.toggle('open');
     return btnRef.current?.classList.contains('open') ?? false;
-  }, [onOpen, onClose]);
+  }, []);
 
   return (
     <a
