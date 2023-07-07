@@ -2,107 +2,52 @@
 @import "../../../css/mixins.less";
 
 .footer {
-  width : 100vw;
-  padding : 20px 5% 20px;
-  color : @clrBG0;
-  background : #363738;
-  font-size : 16px;
+  width: 100vw;
+  color: @clrBG0;
+  background: #363738;
+  font-size: 16px;
   position: relative;
-  display: grid;
-  grid-template-columns: 15% 15% 15% 55%;
-  gap : 15px;
-  height : @heightFooter;
+  padding : 30px;
   @media @queryMedium {
-    grid-template-columns: 15% 15% 15% 55%;
-    margin-left : -15px;
-    height : unset;
-    .tri{
-      &:nth-child(1){
-        grid-row : 1;
-        grid-column : 1;
-      }
-      &:nth-child(2){
-        grid-row : 2;
-        grid-column : 2;
-      }
-      &:nth-child(3){
-        grid-row : 3;
-        grid-column : 3;
-      }
-      &:nth-child(4){
-        grid-row : 4;
-        grid-column : 4;
-      }
-    }
+    margin-left : -@paddingPageMobile;
+    padding : 10px;
   }
-
   @media @querySmall {
-    grid-template-columns: 1fr;
-    margin-left : -15px;
-    height : unset;
-    .tri{
-      grid-row: auto; // allows the grid to automatically place items in the next available row
-      grid-column: auto; // allows the grid to automatically place items in the next available column
-      padding-left: 0; // remove the padding left on the 4th child for mobile view
+    margin-left : -@paddingPageMobile;
+    padding : 10px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap : 15px;
+    h3 {
+      margin-top : 0px;
+    }
+    .tri {
 
-      // You can remove nth-child selectors as they're no longer needed
     }
   }
 
-
-  /*@media @querySmall {
-    grid-template-columns: 2fr;
-    margin-left : -15px;
-    height : unset;
-    .tri{
-      &:nth-child(1){
-        grid-row : 1;
-        grid-column : 1;
-      }
-      &:nth-child(2){
-        grid-row : 2;
-        grid-column : 1;
-      }
-      &:nth-child(3){
-        grid-row : 3;
-        grid-column : 1;
-      }
-      &:nth-child(4){
-        grid-row : 4;
-        grid-column : 1;
-      }
-    }
-  }*/
-  .tri {
-    grid-row : 1;
-    &:nth-child(1){
-      grid-column : 1;
-    }
-    &:nth-child(2){
-      grid-column : 2;
-    }
-    &:nth-child(3){
-      grid-column : 3;
-    }
-    &:nth-child(4){
-      grid-column : 4;
-      padding-left: 30%;
-    }
-  }
-  strong {
-    font-weight: 700;
-  }
-  a {
+  .bottom {
     display : block;
-    color : @clrBG0;
-    //margin : 15px 0;
+    width : 100vw;
+    h3 {
+      margin-top : 0px;
+    }
+    .data {
+      p, a {
+        margin : 0px;
+        padding : 0px 7px 0px 0px;
+        &.copyright{
+          margin-top : 10px;
+        }
+      }
+      a {
+        color : @clrBG0;
+        &:visited {
+          color : @clrBG0;
+        }
+      }
+    }
   }
-  .data {
-    //padding-left : 20px;
-  }
-//  .copyright {
- //   text-align : center;
-  //  grid-column : 1 / 4;
-    //border : 1px solid magenta;
-  //}
 }
