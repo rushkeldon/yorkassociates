@@ -17,7 +17,7 @@ export default function PageWetland() {
     <div className="page page-bainbridge">
       <h1>Wetland Wastewater Treatment Facility Improvements</h1>
       <Image
-        className="hero"
+        className="hero img"
         src={ imgHero }
         alt=""
       />

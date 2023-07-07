@@ -20,7 +20,7 @@ export default function PageArlington() {
     <div className="page page-bainbridge">
       <h1>Arlington Demolition</h1>
       <Image
-        className="hero"
+        className="hero img"
         src={imgHero}
         alt=""
       />

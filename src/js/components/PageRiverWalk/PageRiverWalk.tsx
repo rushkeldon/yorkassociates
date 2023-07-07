@@ -18,7 +18,7 @@ export default function PageRiverWalk() {
     <div className="page page-river-walk">
       <h1>Riverwalk Trail</h1>
       <Image
-        className="hero"
+        className="hero img"
         src={ imgHero }
         alt=""
       />

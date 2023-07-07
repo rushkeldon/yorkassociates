@@ -17,7 +17,7 @@ export default function PageEastDouglas() {
     <div className="page page-bainbridge">
       <h1>East Douglas Sanitary Sewer</h1>
       <Image
-        className="hero"
+        className="hero img"
         src={ imgHero }
         alt=""
       />
