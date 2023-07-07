@@ -24,9 +24,9 @@ export default function PageHome() {
         ] }
       />
       <h2>Our Services</h2>
-      <ServiceLinks/><br/>
+      <ServiceLinks/>
       <h2>Our Work</h2>
-      <ProjectLinks/><br/>
+      <ProjectLinks/>
     </div>
   </>;
 }
