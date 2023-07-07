@@ -1,82 +1,82 @@
 @import "../../../css/vars.less";
 @import "../../../css/mixins.less";
 
-@heightItem: 75px;
+@heightItem: 57px;
 
 .hamburger {
-    z-index: 1;
-    cursor: pointer;
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+  width: @heightItem;
+  height: @heightItem;
+  padding: 15px 12px 12px;
+  -webkit-transition: all 0.3s cubic-bezier(0.7, 0.01, 0.3, 1);
+  -moz-transition: all 0.3s cubic-bezier(0.7, 0.01, 0.3, 1);
+  -o-transition: all 0.3s cubic-bezier(0.7, 0.01, 0.3, 1);
+  transition: all 0.3s cubic-bezier(0.7, 0.01, 0.3, 1);
+
+  .patty {
     position: absolute;
-    top: 0;
-    right: 0;
-    width: @heightItem;
-    height: @heightItem;
-    padding: 25px;
-    -webkit-transition: all 0.3s cubic-bezier(0.7, 0.01, 0.3, 1);
-    -moz-transition: all 0.3s cubic-bezier(0.7, 0.01, 0.3, 1);
-    -o-transition: all 0.3s cubic-bezier(0.7, 0.01, 0.3, 1);
-    transition: all 0.3s cubic-bezier(0.7, 0.01, 0.3, 1);
+    width: 32px;
+    height: 4px;
+    margin: 10px 0;
+    background: @clrFG0;
+    .Trans(0.3s);
+
+    &:before,
+    &:after {
+      content: "";
+      display: block;
+      width: 32px;
+      height: 4px;
+      background: @clrFG0;
+      position: absolute;
+      z-index: -1;
+      .Trans(0.3s);
+    }
+
+    &:before {
+      top: -12px;
+    }
+
+    &:after {
+      top: 12px;
+    }
+  }
+
+  &.open {
     .patty {
-        position: relative;
-        width: 32px;
-        height: 4px;
-        margin: 10px 0;
-        background: #fff;
-        .Trans(0.3s);
-        &:before,
-        &:after {
-            content: "";
-            display: block;
-            width: 32px;
-            height: 4px;
-            background: #fff;
-            position: absolute;
-            z-index: -1;
-            .Trans(0.3s);
-        }
-        &:before {
-            top: -12px;
-        }
-        &:after {
-            top: 12px;
-        }
+      height: 0;
+
+      &:before {
+        top: 0;
+        background: @clrFG0;
+        transform: rotate(-45deg);
+      }
+
+      &:after {
+        top: 0;
+        background: @clrFG0;
+        transform: rotate(45deg);
+      }
     }
-    &.open {
-        .patty {
-            height: 0;
-            &:before {
-                top: 0;
-                background: #fff;
-                transform: rotate(-45deg);
-            }
-            &:after {
-                top: 0;
-                background: #fff;
-                transform: rotate(45deg);
-            }
-        }
-        &:hover {
-            .patty {
-                &:before,
-                &:after {
-                    background: red;
-                }
-            }
-        }
+  }
+
+  &.close {
+    .patty {
+      height: 0;
+
+      &:before {
+        top: 0 !important;
+        background: #fff !important;
+        transform: rotate(-45deg);
+      }
+
+      &:after {
+        top: 0 !important;
+        background: #fff !important;
+        transform: rotate(45deg);
+      }
     }
-    &.close {
-        .patty {
-            height: 0;
-            &:before {
-                top: 0 !important;
-                background: #fff !important;
-                transform: rotate(-45deg);
-            }
-            &:after {
-                top: 0 !important;
-                background: #fff !important;
-                transform: rotate(45deg);
-            }
-        }
-    }
+  }
 }

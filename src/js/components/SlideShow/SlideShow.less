@@ -1,5 +1,5 @@
-@import "../../../css/vars.less";
-@import "../../../css/mixins.less";
+@import '../../../css/vars.less';
+@import '../../../css/mixins.less';
 
 .slide-show {
   position: absolute;
@@ -14,12 +14,12 @@
     opacity : 1;
   }
   @media @queryMedium {
-    height: 400px;
+    height: @heightHeroShort;
     top : @heightHeaderShort;
   }
 
   @media @querySmall {
-    height: 300px;
+    height: @heightHeroShort;
     top : @heightHeaderShort;
   }
   .msg {
@@ -58,13 +58,15 @@
       white-space: pre-wrap;
 
       @media @queryMedium {
-        font-size: 40px;
+        font-weight : 500;
+        font-size: 26px;
         margin-top: 10%;
         margin-left: 5%;
       }
 
       @media @querySmall {
-        font-size: 30px;
+        font-weight : 500;
+        font-size: 26px;
         margin-top: 8%;
         margin-left: 5%;
       }
@@ -75,11 +77,13 @@
       margin-left: 5%;
 
       @media @queryMedium {
+        font-weight : 400;
         font-size: 18px;
         margin-left: 5%;
       }
 
       @media @querySmall {
+        font-weight : 400;
         font-size: 16px;
         margin-left: 5%;
       }

@@ -3,11 +3,34 @@
 
 @heightTitle : 65px;
 
+.serviceLinksMobile{
+  grid-template-columns: 1fr;
+  gap : 0px;
+}
+
+.serviceLinkMobile{
+  width : calc( 100vw - 30px );
+  margin-top : -15px;
+  border-radius : 10px;
+  &:nth-child(1){
+    margin-top : 0px;
+  }
+  img {
+    border-radius : 10px;
+  }
+}
+
 .service-links {
   display : grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
   gap : 10px;
+  @media @queryMedium {
+    .serviceLinksMobile();
+  }
+  @media @querySmall {
+    .serviceLinksMobile();
+  }
   .service-link {
     position : relative;
     display : inline-block;
@@ -15,6 +38,12 @@
     height : 200px;
     text-decoration : none;
     color : @clrFG0;
+    @media @queryMedium {
+      .serviceLinkMobile();
+    }
+    @media @querySmall {
+      .serviceLinkMobile();
+    }
     img {
       position : absolute;
       top : 0px;

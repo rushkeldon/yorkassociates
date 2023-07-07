@@ -2,36 +2,20 @@
 @import "../../../css/mixins.less";
 
 .footer {
-  width : 100%;
+  width : 100vw;
   padding : 20px 5% 20px;
   color : @clrBG0;
   background : #363738;
   font-size : 16px;
   position: relative;
   display: grid;
-  //grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 15% 15% 15% 55%;
   gap : 15px;
   height : @heightFooter;
-  .tri {
-    //border : 1px solid magenta;
-    grid-row : 1;
-    &:nth-child(1){
-      grid-column : 1;
-    }
-    &:nth-child(2){
-      grid-column : 2;
-    }
-    &:nth-child(3){
-      grid-column : 3;
-    }
-    &:nth-child(4){
-      grid-column : 4;
-      padding-left: 30%;
-    }
-  }
   @media @queryMedium {
     grid-template-columns: 15% 15% 15% 55%;
+    margin-left : -15px;
+    height : unset;
     .tri{
       &:nth-child(1){
         grid-row : 1;
@@ -53,7 +37,23 @@
   }
 
   @media @querySmall {
+    grid-template-columns: 1fr;
+    margin-left : -15px;
+    height : unset;
+    .tri{
+      grid-row: auto; // allows the grid to automatically place items in the next available row
+      grid-column: auto; // allows the grid to automatically place items in the next available column
+      padding-left: 0; // remove the padding left on the 4th child for mobile view
+
+      // You can remove nth-child selectors as they're no longer needed
+    }
+  }
+
+
+  /*@media @querySmall {
     grid-template-columns: 2fr;
+    margin-left : -15px;
+    height : unset;
     .tri{
       &:nth-child(1){
         grid-row : 1;
@@ -71,6 +71,22 @@
         grid-row : 4;
         grid-column : 1;
       }
+    }
+  }*/
+  .tri {
+    grid-row : 1;
+    &:nth-child(1){
+      grid-column : 1;
+    }
+    &:nth-child(2){
+      grid-column : 2;
+    }
+    &:nth-child(3){
+      grid-column : 3;
+    }
+    &:nth-child(4){
+      grid-column : 4;
+      padding-left: 30%;
     }
   }
   strong {

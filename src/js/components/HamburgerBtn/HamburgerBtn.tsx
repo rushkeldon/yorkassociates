@@ -2,26 +2,31 @@ import React, { useRef, useCallback } from 'react';
 import './HamburgerBtn.css';
 
 type Props = {
-  onClick : (isOpen : boolean) => void;
+  onOpen: () => void;
+  onClose: () => void;
 };
 
-export default function HamburgerBtn({ onClick }: Props) {
+export default function HamburgerBtn({ onOpen, onClose }: Props) {
   const btnRef = useRef<HTMLAnchorElement | null>(null);
 
   const handleClick = useCallback((e) => {
     e.preventDefault();
     btnRef.current?.classList.toggle('open');
-    onClick(btnRef.current?.classList.contains('open') ?? false);
-  }, [onClick]);
+    return btnRef.current?.classList.contains('open') ?? false;
+  }, [onOpen, onClose]);
 
   return (
     <a
       className="hamburger"
       href="/#"
       ref={btnRef}
-      onClick={handleClick}
+      onClick={e => {
+        const isOpen = handleClick(e);
+        isOpen ? onOpen?.() : onClose?.();
+      }}
       onBlur={(e) => {
         btnRef.current?.classList.remove('open');
+        onClose?.();
       }}
     >
       <div className="patty"></div>

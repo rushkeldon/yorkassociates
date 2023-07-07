@@ -1,11 +1,41 @@
-@import "../../../css/vars.less";
-@import "../../../css/mixins.less";
+@import '../../../css/vars.less';
+@import '../../../css/mixins.less';
 
 #root:not([data-scroll='0']) {
   .header {
     position: fixed;
     top: 0;
     box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+  }
+}
+
+.navMobile {
+  display : none;
+  top : @heightHeaderShort;
+  right : 0px;
+  width : 75vw;
+  -webkit-box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 10px;
+  &.open {
+    display : block;
+  }
+}
+
+.navItemMobile {
+  width : 100%;
+  text-align : center;
+  display : inline-block;
+  height : @heightHeader * 1.1;
+  line-height : @heightHeader * 1.1;
+  border-style: solid;
+  border-color: white;
+  border-width: 0 40px 1px 40px; // top, right, bottom, left
+  border-bottom-color: lightgray;
+
+  &:last-child {
+    border-bottom: none;
   }
 }
 
@@ -18,24 +48,54 @@
   height : @heightHeader;
   background : @clrBG0;
   z-index : @zIndexChrome;
+  overflow : visible;
   @media @queryMedium {
     height : @heightHeaderShort;
   }
-
   @media @querySmall {
     height : @heightHeaderShort;
+  }
+  .hamburger {
+    display : none;
+    transform: scale(0.8);
+    width : 80px;
+    top: -1px;
+    right: 4px;
+    @media @queryMedium {
+      display : block;
+    }
+    @media @querySmall {
+      display : block;
+    }
+    .patty {
+      right : 10px;
+    }
   }
   .nav {
     position : absolute;
     right : 5%;
     top : 0px;
-    //padding : 0px 350px;
+    background : @clrBG0;
+    overflow : hidden;
+    @media @queryMedium {
+      .navMobile();
+    }
+    @media @querySmall {
+      .navMobile();
+    }
     .nav-item {
       line-height : @heightHeader;
       text-decoration : none;
       margin-right : 20px;
       color : @clrFG0;
       font-weight : 500;
+      background : @clrBG0;
+      @media @queryMedium {
+        .navItemMobile();
+      }
+      @media @querySmall {
+        .navItemMobile();
+      }
       &:visited, &:active {
         color : @clrFG0;
       }
@@ -43,19 +103,6 @@
         color : @clrBrand;
         pointer-events: none;
       }
-    }
-    @media @queryLarge {
-      display : block;
-    }
-
-    @media @queryMedium {
-      // TODO : hamburger
-      display : none;
-    }
-
-    @media @querySmall {
-      // TODO : hamburger
-      display : none;
     }
   }
   .logo {

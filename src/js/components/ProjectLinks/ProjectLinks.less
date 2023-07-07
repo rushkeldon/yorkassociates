@@ -3,11 +3,27 @@
 
 @heightTitle : 65px;
 
+.projectLinksMobile{
+  grid-template-columns: 1fr;
+  gap : 0px;
+}
+
+.projectLinkMobile{
+  width : 100vw;
+  margin-left : -15px;
+}
+
 .project-links {
   display : grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   gap : 10px;
+  @media @queryMedium {
+    .projectLinksMobile();
+  }
+  @media @querySmall {
+    .projectLinksMobile();
+  }
   .project-link {
     position : relative;
     display : inline-block;
@@ -16,6 +32,12 @@
     text-decoration : none;
     color : @clrFG0;
     overflow : hidden;
+    @media @queryMedium {
+      .projectLinkMobile();
+    }
+    @media @querySmall {
+      .projectLinkMobile();
+    }
     img {
       width : 100%;
       object-fit: cover;
