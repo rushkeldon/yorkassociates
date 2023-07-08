@@ -3,12 +3,12 @@
 
 .slide-show {
   position: absolute;
-  width: 100vw;
   left: 0px;
   top: @heightHeader;
   overflow: hidden;
   height: @heightHero;
   opacity : 0;
+  width: 100vw;
   .Transition( opacity, 0.2s, ease-in );
   &.first-img-loaded {
     opacity : 1;

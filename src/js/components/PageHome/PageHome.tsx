@@ -12,17 +12,17 @@ import './PageHome.css';
 
 export default function PageHome() {
   return <>
+    <SlideShow
+      h1="We are a civil engineering consulting firm"
+      p="committed to providing our clients with the best solution to meet their needs cost-effectively and efficiently. Our team has over 30 years of experience, and we are licensed to work in Georgia, Florida, and Alabama."
+      imgURLs={ [
+        img0,
+        img1,
+        img2,
+        img3
+      ] }
+    />
     <div className="page page-home">
-      <SlideShow
-        h1="We are a civil engineering consulting firm"
-        p="committed to providing our clients with the best solution to meet their needs cost-effectively and efficiently. Our team has over 30 years of experience, and we are licensed to work in Georgia, Florida, and Alabama."
-        imgURLs={ [
-          img0,
-          img1,
-          img2,
-          img3
-        ] }
-      />
       <h2>Our Services</h2>
       <ServiceLinks/>
       <h2>Our Work</h2>
