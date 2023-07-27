@@ -51,7 +51,13 @@
         margin-top : 0px;
       }
       img {
-        width : calc( 100vw - ( @paddingPageMobile * 2 ) );
+        width : 100%;
+        @media @queryMedium {
+          width : calc( 100vw - ( @paddingPageMobile * 2 ) );
+        }
+        @media @querySmall {
+          width : calc( 100vw - ( @paddingPageMobile * 2 ) );
+        }
       }
       a {
         display : block;
