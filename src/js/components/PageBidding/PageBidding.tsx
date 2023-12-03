@@ -92,11 +92,11 @@ export default function PageBidding() {
       <p>Storm drainage improvements</p>
       <h3>Links</h3>
       <ul>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_camilla_storm_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_camilla_storm_plan_holders.pdf`}>Plan Holders List</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_camilla_storm_addendum_1.pdf`}>Addendum No. 1</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_camilla_storm_addendum_2.pdf`}>Addendum No. 2</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_camilla_storm_bid_result.pdf`}>Bid Result</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_storm_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_storm_plan_holders.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_storm_addendum_1.pdf`}>Addendum No. 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_storm_addendum_2.pdf`}>Addendum No. 2</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_storm_bid_result.pdf`}>Bid Result</a></li>
       </ul>
       <div className="hr"/>
       <h2>Water Treatment Building</h2>
@@ -108,10 +108,10 @@ export default function PageBidding() {
       <p>Construction of water treatment building</p>
       <h3>Links</h3>
       <ul>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_treatment_bldg_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_treatment_bldg_plan_holders_list.pdf`}>Plan Holders List</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_treatment_bldg_addendum_1.pdf`}>Addendum No. 1</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_treatment_bldg_bid_result.pdf`}>Bid Result</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_water_treatment_bldg_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_water_treatment_bldg_plan_holders_list.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_water_treatment_bldg_addendum_1.pdf`}>Addendum No. 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_water_treatment_bldg_bid_result.pdf`}>Bid Result</a></li>
       </ul>
       <div className="hr"/>
       <h2>Water Storage Tank</h2>
@@ -123,11 +123,11 @@ export default function PageBidding() {
       <p>Construction of an elevated water storage tank</p>
       <h3>Links</h3>
       <ul>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_tank_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_tank_plan_holders_list.pdf`}>Plan Holders List</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_tank_addendum_1.pdf`}>Addendum No. 1</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_tank_addendum_2.pdf`}>Addendum No. 2</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_tank_bid_result.pdf`}>Bid Result</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_water_tank_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_water_tank_plan_holders_list.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_water_tank_addendum_1.pdf`}>Addendum No. 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_water_tank_addendum_2.pdf`}>Addendum No. 2</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_water_tank_bid_result.pdf`}>Bid Result</a></li>
       </ul>
       <div className="hr"/>
       <h2>Sewer Pump Station Generators - Clean Water State Revolving Fund - CW20002</h2>
@@ -139,9 +139,9 @@ export default function PageBidding() {
       <p>Construction and installation of generators on concrete pads for existing Pump Stations with associated electrical controls, wiring, and other miscellaneous appurtenances as shown on the plans or specified in the contract documents</p>
       <h3>Links</h3>
       <ul>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_sewer_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_sewer_plan_holders_list.pdf`}>Plan Holders List</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_sewer_bid_result.pdf`}>Bid Results</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_sewer_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_sewer_plan_holders_list.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_sewer_bid_result.pdf`}>Bid Results</a></li>
       </ul>
       <div className="hr"/>
       <h2>Elevated Water Storage Tank and Water Treatment Building</h2>
@@ -153,11 +153,11 @@ export default function PageBidding() {
       <p>Construction of an elevated water storage tank, water treatment building, and other miscellaneous appurtenances as shown on the plans or specified in the contract documents.</p>
       <h3>Links</h3>
       <ul>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_plan_holders_list.pdf`}>Plan Holders List</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_addendum_1.pdf`}>Addendum No. 1</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_addendum_2.pdf`}>Addendum No. 2</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_bid_result.pdf`}>Bid Results</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_plan_holders_list.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_addendum_1.pdf`}>Addendum No. 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_addendum_2.pdf`}>Addendum No. 2</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_bid_result.pdf`}>Bid Results</a></li>
       </ul>
       <div className="hr"/>
       <h2>U.S. 84 Thomasville Road Water Extension Project</h2>
