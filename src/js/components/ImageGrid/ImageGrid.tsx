@@ -3,21 +3,26 @@ import Image from '../Image/Image';
 
 import './ImageGrid.css';
 
+type ImageInfo = {
+  src: string;
+  alt: string;
+};
+
 type props = {
-  imgURLs? : string[];
+  imgInfos? : ImageInfo[];
 };
 
 export default function ImageGrid( {
-  imgURLs = []
+  imgInfos = []
 } : props ) {
 
   return <div className="image-grid">
-    { imgURLs.map( ( url, i ) => <div
+    { imgInfos.map( ( imgInfo, i ) => <div
       key={ i }
-      className={ i === imgURLs.length - 1 ? 'landscape' : '' } >
+      className={ i === imgInfos.length - 1 ? 'landscape' : '' } >
         <Image
-          src={ url }
-          alt=""
+          src={ imgInfo.src }
+          alt={ imgInfo.alt }
         />
       </div> )
      }

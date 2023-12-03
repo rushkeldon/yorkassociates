@@ -27,13 +27,13 @@ export default function PageBillReynolds() {
       <h2>Overview</h2>
       <p>Bill Reynolds Sports Complex was invested in the community to enhance the citizen’s well-being, improve the local economy, conserve the natural environment, and strengthen the community.</p>
       <ImageGrid
-        imgURLs={ [
-          img0,
-          img1,
-          img2,
-          img3,
-          img4,
-          img5
+        imgInfos={ [
+          { src: img0, alt: '' },
+          { src: img1, alt: '' },
+          { src: img2, alt: '' },
+          { src: img3, alt: '' },
+          { src: img4, alt: '' },
+          { src: img5, alt: '' }
         ] }
       />
       <h2>Project Summary</h2>

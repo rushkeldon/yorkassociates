@@ -16,23 +16,23 @@ export enum services {
 }
 
 export enum routes {
-  home = '/york/',
-  ourwork = '/york/ourwork',
-  services = '/york/services',
-  about = '/york/about',
-  bidding = '/york/bidding',
-  contact = '/york/contact',
-  projectArlington = '/york/ourwork/arlington',
-  projectBainbridge = '/york/ourwork/bainbridge',
-  projectBillReynolds = '/york/ourwork/billreynolds',
-  projectEastDouglas = '/york/ourwork/eastdouglas',
-  projectRiverWalk = '/york/ourwork/riverwalk',
-  projectWetlandWasteWater = '/york/ourwork/wetland',
-  servicesMuni = '/york/services#muni',
-  servicesTrans = '/york/services#trans',
-  servicesWater = '/york/services#water',
-  servicesSite = '/york/services#site',
-  servicesSurvey = '/york/services#survey',
+  home = '/',
+  ourwork = '/ourwork',
+  services = '/services',
+  about = '/about',
+  bidding = '/bidding',
+  contact = '/contact',
+  projectArlington = '/ourwork/arlington',
+  projectBainbridge = '/ourwork/bainbridge',
+  projectBillReynolds = '/ourwork/billreynolds',
+  projectEastDouglas = '/ourwork/eastdouglas',
+  projectRiverWalk = '/ourwork/riverwalk',
+  projectWetlandWasteWater = '/ourwork/wetland',
+  servicesMuni = '/services#muni',
+  servicesTrans = '/services#trans',
+  servicesWater = '/services#water',
+  servicesSite = '/services#site',
+  servicesSurvey = '/services#survey',
 }
 
-export const baseURL : string = 'https://appcloud9.com/';//`${ window.location.protocol }//${ window.location.host }/`;
+export const baseURL : string = 'https://yorkassociates.net/';//`${ window.location.protocol }//${ window.location.host }/`;

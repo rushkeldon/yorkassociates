@@ -48,12 +48,12 @@ export default function PageServices() {
         experience enables us to provide our clients from initial project planning through design and completion of construction.
       </p>
       <ImageGrid
-        imgURLs={ [
-          imgMuni0,
-          imgMuni1,
-          imgMuni2,
-          imgMuni3,
-          imgMuni4
+        imgInfos={ [
+          { src: imgMuni0, alt: '' },
+          { src: imgMuni1, alt: '' },
+          { src: imgMuni2, alt: '' },
+          { src: imgMuni3, alt: '' },
+          { src: imgMuni4, alt: '' }
         ] }
       />
       <h3>Services</h3>
@@ -72,10 +72,10 @@ export default function PageServices() {
       <h2 id={services.trans}>Transportation</h2>
       <p>We provide full support from concept to completion.</p>
       <ImageGrid
-        imgURLs={ [
-          imgTrans0,
-          imgTrans1,
-          imgTrans2
+        imgInfos={ [
+          { src: imgTrans0, alt: '' },
+          { src: imgTrans1, alt: '' },
+          { src: imgTrans2, alt: '' }
         ] }
       />
       <h3>Services</h3>
@@ -96,10 +96,10 @@ export default function PageServices() {
       <p>We are committed to providing cost-effective solutions that allow our clients to improve and revitalize the infrastructure and environment as well as to protect public health and well-being.
       </p>
       <ImageGrid
-        imgURLs={ [
-          imgEnviro0,
-          imgEnviro1,
-          imgEnviro2
+        imgInfos={ [
+          { src: imgEnviro0, alt: '' },
+          { src: imgEnviro1, alt: '' },
+          { src: imgEnviro2, alt: '' }
         ] }
       />
       <h3>Water Pipelines, Supply, Treatment & Storage Services</h3>
@@ -139,10 +139,10 @@ export default function PageServices() {
       <h2 id={services.site}>Site Design & Land Development</h2>
       <p>With decades of experience in site design & land development, we offer great insight into the design details that can make a significant difference in construction cost and durability.</p>
       <ImageGrid
-        imgURLs={ [
-          imgDev0,
-          imgDev1,
-          imgDev2
+        imgInfos={ [
+          { src: imgDev0, alt: '' },
+          { src: imgDev1, alt: '' },
+          { src: imgDev2, alt: '' }
         ] }
       />
       <h3>Services</h3>

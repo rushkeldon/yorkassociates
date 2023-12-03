@@ -11,6 +11,7 @@ import img4 from '../../../img/riverwalk/riverwalk_bridge.jpg';
 import Image from '../Image/Image';
 
 import './PageRiverWalk.css';
+import img5 from '../../../img/billreynolds/billreynolds_tennis_court.jpg';
 
 export default function PageRiverWalk() {
 
@@ -25,12 +26,12 @@ export default function PageRiverWalk() {
       <h2>Overview</h2>
       <p>The City of Bainbridge is an outdoor oriented community that prides itself on parks, recreation, and natural resources. The community has 5 miles of beautiful shaded riverbanks. Along the east bank of the Flint River is the Cheney-Griffin Park and the Earle May Boat Basin Park. The Earle May Boat Basin Park has 2.5 miles of paved walking trails while the Cheney-Griffin Park had no walking trails. To enhance the park, a Riverwalk Trail was proposed along the river to connect the parks.</p>
       <ImageGrid
-        imgURLs={ [
-          img0,
-          img1,
-          img2,
-          img3,
-          img4
+        imgInfos={ [
+          { src: img0, alt: '' },
+          { src: img1, alt: '' },
+          { src: img2, alt: '' },
+          { src: img3, alt: '' },
+          { src: img4, alt: '' }
         ] }
       />
       <h2>Project Summary</h2>

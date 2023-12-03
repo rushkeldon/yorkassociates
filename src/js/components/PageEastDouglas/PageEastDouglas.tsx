@@ -11,6 +11,7 @@ import img3 from '../../../img/eastdouglas/project_shot_east_douglas_3.jpg';
 import img4 from '../../../img/eastdouglas/project_shot_east_douglas_4.jpg';
 import ImageGrid from '../ImageGrid/ImageGrid';
 import Image from '../Image/Image';
+import img5 from '../../../img/billreynolds/billreynolds_tennis_court.jpg';
 
 export default function PageEastDouglas() {
   return <>
@@ -24,12 +25,12 @@ export default function PageEastDouglas() {
       <h2>Overview</h2>
       <p>The local rural city of 13,000 population implemented this infrastructure improvements project to serve nearly 400 homes in 7 established neighborhoods. This planned infrastructure improvement project not only benefited the local economy, it also benefited the environment by eliminating of individual septic tanks usage, thereby cutting the amount of wastewater and pollutants discharging directly into the environment.</p>
       <ImageGrid
-        imgURLs={ [
-          img0,
-          img1,
-          img2,
-          img3,
-          img4
+        imgInfos={ [
+          { src: img0, alt: '' },
+          { src: img1, alt: '' },
+          { src: img2, alt: '' },
+          { src: img3, alt: '' },
+          { src: img4, alt: '' }
         ] }
       />
       <h2>Project Summary</h2>

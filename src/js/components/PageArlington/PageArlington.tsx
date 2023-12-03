@@ -13,6 +13,10 @@ import img4 from '../../../img/arlington/arlington_plaque.jpg';
 
 import './PageArlington.css';
 import Image from '../Image/Image';
+import imgMuni0 from '../../../img/services/services_municipal_0.jpg';
+import imgMuni1 from '../../../img/services/services_municipal_1.jpg';
+import imgMuni2 from '../../../img/services/services_municipal_2.jpg';
+import imgMuni3 from '../../../img/services/services_municipal_3.jpg';
 
 export default function PageArlington() {
 
@@ -27,12 +31,12 @@ export default function PageArlington() {
       <h2>Overview</h2>
       <p>The City of Arlington, Georgia, a rural town of population of 1,300 had an abandoned dilapidated and structurally unsound school and gym buildings that were listed on the State of Georgia’s List of Historical structures. The school site was adjacent to an existing recreation area and was also surrounded by a residential neighborhood which posed health risks and hazards to the children.</p>
       <ImageGrid
-        imgURLs={ [
-          img0,
-          img1,
-          img2,
-          img3,
-          img4
+        imgInfos={ [
+          { src: img0, alt: '' },
+          { src: img1, alt: '' },
+          { src: img2, alt: '' },
+          { src: img3, alt: '' },
+          { src: img4, alt: '' }
         ] }
       />
       <h2>Project Summary</h2>

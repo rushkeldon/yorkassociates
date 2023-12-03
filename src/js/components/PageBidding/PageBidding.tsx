@@ -8,9 +8,129 @@ export default function PageBidding() {
     <div className="page page-bidding">
       <h1>Bidding</h1>
       <div className="hr"/>
-      <h2>Town of Ochlocknee</h2>
-      <h3>Project Name</h3>
-      <p>Sewer Pump Station Generators - Clean Water State Revolving Fund - CW20002</p>
+      <h2>Wheat Ave. Phase III</h2>
+      <h3>Project Number</h3>
+      <p>#2022-06</p>
+      <h3>Bid Date</h3>
+      <p>Friday, December 15th, 2023, 11:00 AM (ET)</p>
+      <h3>Work to Be Done</h3>
+      <p>Storm drainage improvements CDBG#21p-x-043-2-6178</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_storm_ad_for_bid.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_storm_plan_holders.pdf`}>Plan Holders List</a></li>
+      </ul>
+      <div className="hr"/>
+      <h2>Toombs Park Improvements</h2>
+      <h3>Project Number</h3>
+      <p>#2023-13</p>
+      <h3>Bid Date</h3>
+      <p>Friday, December 8th, 2023, 11:00 AM (ET)</p>
+      <h3>Work to Be Done</h3>
+      <p>Site, Utilities, Restrooms</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_toombs_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_toombs_plan_holders.pdf`}>Plan Holders List</a></li>
+      </ul>
+      <div className="hr"/>
+      <h2>Gymnasium Demolition</h2>
+      <h3>Project Number</h3>
+      <p>#2023-14</p>
+      <h3>Bid Date</h3>
+      <p>Friday, September 8th, 2023 11:00 AM (E.T.)</p>
+      <h3>Work to Be Done</h3>
+      <p>Demolition of building</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_demo_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_demo_plan_holders.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_demo_addendum_1.pdf`}>Addendum No. 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_demo_addendum_2.pdf`}>Addendum No. 2</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_demo_addendum_3.pdf`}>Addendum No. 3</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_demo_addendum_4.pdf`}>Addendum No. 4</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_demo_bid_result.pdf`}>Bid Result</a></li>
+      </ul>
+      <div className="hr"/>
+      <h2>Northside Heights</h2>
+      <h3>Project Number</h3>
+      <p>#2022-16</p>
+      <h3>Bid Date</h3>
+      <p>Thursday, August 24th, 2023, 11:00 AM (E.T.)</p>
+      <h3>Work to Be Done</h3>
+      <p>Road and storm drainage improvements</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_northside_heights_street_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_northside_heights_street_plan_holders.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_northside_heights_street_addendum_1.pdf`}>Addendum No. 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_northside_heights_street_bid_result.pdf`}>Bid Result</a></li>
+      </ul>
+      <div className="hr"/>
+      <h2>CDBG Water Improvements</h2>
+      <h3>Project Number</h3>
+      <p>#2022-05</p>
+      <h3>Bid Date</h3>
+      <p>Friday, January 27, 2023, 11:00 AM (E.T.)</p>
+      <h3>Work to Be Done</h3>
+      <p>Water improvements</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_cdbg_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_cdbg_plan_holders.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_cdbg_addendum_1.pdf`}>Addendum No. 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_cdbg_addendum_2.pdf`}>Addendum No. 2</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_cdbg_bid_result.pdf`}>Bid Result</a></li>
+      </ul>
+      <div className="hr"/>
+      <h2>Storm Drainage Improvements – Thomas & Cochran Streets</h2>
+      <h3>Project Number</h3>
+      <p>#2022-015</p>
+      <h3>Bid Date</h3>
+      <p>Thursday, 12/01/2022, 11:00 AM (E.T.)</p>
+      <h3>Work to Be Done</h3>
+      <p>Storm drainage improvements</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_camilla_storm_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_camilla_storm_plan_holders.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_camilla_storm_addendum_1.pdf`}>Addendum No. 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_camilla_storm_addendum_2.pdf`}>Addendum No. 2</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_camilla_storm_bid_result.pdf`}>Bid Result</a></li>
+      </ul>
+      <div className="hr"/>
+      <h2>Water Treatment Building</h2>
+      <h3>Project Number</h3>
+      <p>#2022-09</p>
+      <h3>Bid Date</h3>
+      <p>Friday, 07/29/2022, 11:00 AM (E.T.)</p>
+      <h3>Work to Be Done</h3>
+      <p>Construction of water treatment building</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_treatment_bldg_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_treatment_bldg_plan_holders_list.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_treatment_bldg_addendum_1.pdf`}>Addendum No. 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_treatment_bldg_bid_result.pdf`}>Bid Result</a></li>
+      </ul>
+      <div className="hr"/>
+      <h2>Water Storage Tank</h2>
+      <h3>Project Number</h3>
+      <p>#2022-08</p>
+      <h3>Bid Date</h3>
+      <p>Friday, 07/15/2022, 4:30 PM (E.T.)</p>
+      <h3>Work to Be Done</h3>
+      <p>Construction of an elevated water storage tank</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_tank_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_tank_plan_holders_list.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_tank_addendum_1.pdf`}>Addendum No. 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_tank_addendum_2.pdf`}>Addendum No. 2</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_water_tank_bid_result.pdf`}>Bid Result</a></li>
+      </ul>
+      <div className="hr"/>
+      <h2>Sewer Pump Station Generators - Clean Water State Revolving Fund - CW20002</h2>
       <h3>Project Number</h3>
       <p>#2021-12</p>
       <h3>Bid Date</h3>
@@ -24,9 +144,7 @@ export default function PageBidding() {
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_sewer_bid_result.pdf`}>Bid Results</a></li>
       </ul>
       <div className="hr"/>
-      <h2>Town of Ochlocknee</h2>
-      <h3>Project Name</h3>
-      <p>Elevated Water Storage Tank and Water Treatment Building</p>
+      <h2>Elevated Water Storage Tank and Water Treatment Building</h2>
       <h3>Project Number</h3>
       <p>#2020-09</p>
       <h3>Bid Date</h3>
@@ -39,12 +157,10 @@ export default function PageBidding() {
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_plan_holders_list.pdf`}>Plan Holders List</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_addendum_1.pdf`}>Addendum No. 1</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_addendum_2.pdf`}>Addendum No. 2</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_bid_results.pdf`}>Bid Results</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/town_of_ochlocknee_bid_result.pdf`}>Bid Results</a></li>
       </ul>
       <div className="hr"/>
-      <h2>City of Bainbridge</h2>
-      <h3>Project Name</h3>
-      <p>U.S. 84 Thomasville Road Water Extension Project</p>
+      <h2>U.S. 84 Thomasville Road Water Extension Project</h2>
       <h3>Project Number</h3>
       <p>#2021-07</p>
       <h3>Bid Date</h3>

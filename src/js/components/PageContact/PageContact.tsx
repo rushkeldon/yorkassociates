@@ -15,7 +15,7 @@ export default function PageContact() {
           <h2>Our Office</h2>
           <Image
             src={imgOffice}
-            alt=""
+            alt="York & Associates Engineering Inc Office"
           />
           <p>308 E. Water Street<br/>
             Bainbridge, Ga 39817<br/>

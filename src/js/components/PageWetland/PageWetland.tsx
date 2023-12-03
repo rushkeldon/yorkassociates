@@ -10,6 +10,10 @@ import img1 from '../../../img/wetland/wetland_sprinkler_close.jpg';
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
 import { projects } from '../../data/consts';
 import Image from '../Image/Image';
+import img2 from '../../../img/billreynolds/billreynolds_pole_building.jpg';
+import img3 from '../../../img/billreynolds/billreynolds_playfield.jpg';
+import img4 from '../../../img/billreynolds/billreynolds_between_fields.jpg';
+import img5 from '../../../img/billreynolds/billreynolds_tennis_court.jpg';
 
 export default function PageWetland() {
 
@@ -24,9 +28,9 @@ export default function PageWetland() {
       <h2>Overview</h2>
       <p>A constructed wetland wastewater treatment facility was originally built for Ochlocknee, a rural town of less than 1,000 population as a low operational cost and minimum maintenance solution. An expansion was needed to increase the permit capacity of the treatment from 15,000 gpd to 50,000 gpd as the number of sewer connections increased over the years.</p>
       <ImageGrid
-        imgURLs={ [
-          img0,
-          img1
+        imgInfos={ [
+          { src: img0, alt: '' },
+          { src: img1, alt: '' }
         ] }
       />
       <h2>Project Summary</h2>
