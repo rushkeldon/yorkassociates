@@ -5,7 +5,8 @@ import './ImageGrid.css';
 
 type ImageInfo = {
   src: string;
-  alt: string;
+  alt?: string;
+  isZoomable?: boolean;
 };
 
 type props = {
@@ -17,14 +18,19 @@ export default function ImageGrid( {
 } : props ) {
 
   return <div className="image-grid">
-    { imgInfos.map( ( imgInfo, i ) => <div
-      key={ i }
-      className={ i === imgInfos.length - 1 ? 'landscape' : '' } >
+    {imgInfos.map((imgInfo, i) => {
+      // destructure with a default value for alt and isZoomable
+      const { src, alt = '', isZoomable = true } = imgInfo;
+
+      return <div
+        key={i}
+        className={i === imgInfos.length - 1 ? 'landscape' : ''} >
         <Image
-          src={ imgInfo.src }
-          alt={ imgInfo.alt }
+          src={src}
+          alt={alt}
+          isZoomable={isZoomable}
         />
-      </div> )
-     }
-    </div>
+      </div>
+    })}
+  </div>
 }

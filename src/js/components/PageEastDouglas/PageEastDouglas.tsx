@@ -11,7 +11,6 @@ import img3 from '../../../img/eastdouglas/project_shot_east_douglas_3.jpg';
 import img4 from '../../../img/eastdouglas/project_shot_east_douglas_4.jpg';
 import ImageGrid from '../ImageGrid/ImageGrid';
 import Image from '../Image/Image';
-import img5 from '../../../img/billreynolds/billreynolds_tennis_court.jpg';
 
 export default function PageEastDouglas() {
   return <>
