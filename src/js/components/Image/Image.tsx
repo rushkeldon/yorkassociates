@@ -19,7 +19,7 @@ export default function Image( {
   title = '',
   isZoomable = false
 } : props ) {
-  return isZoomable ? <Zoom>
+  return isZoomable ? <Zoom IconUnzoom={() => <span>✕</span>}>
       <img
         className={ `image${ className ? ` ${ className }` : '' }` }
         src={ src }

@@ -5,7 +5,7 @@ import './ImageGrid.css';
 
 type ImageInfo = {
   src: string;
-  alt: string;
+  alt?: string;
   isZoomable?: boolean;
 };
 
