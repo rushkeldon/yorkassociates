@@ -19,6 +19,7 @@
     "less-watch-compiler": "^1.16.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-medium-image-zoom": "^5.1.8",
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
     "signals": "^1.0.0",
@@ -26,7 +27,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start" : "concurrently --kill-others \"less-watch-compiler --config less-watcher.config.json\" \"react-scripts start\"",
+    "start": "concurrently --kill-others \"less-watch-compiler --config less-watcher.config.json\" \"react-scripts start\"",
     "build": "react-scripts build",
     "serveLightForgeLocally": "npm run comment && concurrently --kill-others \"less-watch-compiler --config less-watcher.config.json\" \"HOST=192.168.86.24 react-scripts start\"",
     "comment": "echo you can access the local build at http://lightforge:3000/york"

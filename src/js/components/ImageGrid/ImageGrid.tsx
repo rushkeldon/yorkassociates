@@ -6,6 +6,7 @@ import './ImageGrid.css';
 type ImageInfo = {
   src: string;
   alt: string;
+  isZoomable?: boolean;
 };
 
 type props = {
@@ -23,6 +24,7 @@ export default function ImageGrid( {
         <Image
           src={ imgInfo.src }
           alt={ imgInfo.alt }
+          isZoomable={ true }
         />
       </div> )
      }

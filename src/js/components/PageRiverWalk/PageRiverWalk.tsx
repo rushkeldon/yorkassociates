@@ -11,7 +11,6 @@ import img4 from '../../../img/riverwalk/riverwalk_bridge.jpg';
 import Image from '../Image/Image';
 
 import './PageRiverWalk.css';
-import img5 from '../../../img/billreynolds/billreynolds_tennis_court.jpg';
 
 export default function PageRiverWalk() {
 

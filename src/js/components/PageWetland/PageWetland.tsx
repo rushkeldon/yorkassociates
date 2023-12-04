@@ -10,10 +10,6 @@ import img1 from '../../../img/wetland/wetland_sprinkler_close.jpg';
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
 import { projects } from '../../data/consts';
 import Image from '../Image/Image';
-import img2 from '../../../img/billreynolds/billreynolds_pole_building.jpg';
-import img3 from '../../../img/billreynolds/billreynolds_playfield.jpg';
-import img4 from '../../../img/billreynolds/billreynolds_between_fields.jpg';
-import img5 from '../../../img/billreynolds/billreynolds_tennis_court.jpg';
 
 export default function PageWetland() {
 

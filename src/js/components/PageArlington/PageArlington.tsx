@@ -13,10 +13,6 @@ import img4 from '../../../img/arlington/arlington_plaque.jpg';
 
 import './PageArlington.css';
 import Image from '../Image/Image';
-import imgMuni0 from '../../../img/services/services_municipal_0.jpg';
-import imgMuni1 from '../../../img/services/services_municipal_1.jpg';
-import imgMuni2 from '../../../img/services/services_municipal_2.jpg';
-import imgMuni3 from '../../../img/services/services_municipal_3.jpg';
 
 export default function PageArlington() {
 
