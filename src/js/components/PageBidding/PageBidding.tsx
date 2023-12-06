@@ -32,6 +32,7 @@ export default function PageBidding() {
       <ul>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_toombs_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_toombs_plan_holders.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_toombs_addendum_1.pdf`}>Addendum No. 1</a></li>
       </ul>
       <div className="hr"/>
       <h2>Gymnasium Demolition</h2>
