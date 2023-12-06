@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Protocol</key>
+        <string>SFTP + SSH</string>
+        <key>Vendor</key>
+        <string>1and1</string>
+        <key>Description</key>
+        <string>for Theresa</string>
+        <key>Hostname</key>
+        <string>home148174042.1and1-data.host</string>
+        <key>Port</key>
+        <string>22</string>
+        <key>Username</key>
+        <string>u39440144</string>
+        <key>Path</key>
+        <string>/.</string>
+    </dict>
+</plist>
