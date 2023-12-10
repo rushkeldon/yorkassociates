@@ -1,10 +1,16 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 
 import './PageBidding.css';
-import { baseURL } from '../../data/consts';
+import { baseURL, routes } from '../../data/consts';
 
 export default function PageBidding() {
   return <>
+    <Helmet>
+      <title>Bidding | York & Associates Engineering</title>
+      <meta name="description" content="York & Associates Engineering has bid on the following projects." />
+      <link rel="canonical" href={`https://www.yorkassociates.net${routes.bidding}`} />
+    </Helmet>
     <div className="page page-bidding">
       <h1>Bidding</h1>
       <div className="hr"/>

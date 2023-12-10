@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 
 import Image from '../Image/Image';
 
@@ -9,6 +10,11 @@ import './PageAbout.css';
 export default function PageAbout() {
 
   return <>
+    <Helmet>
+      <title>About Us | York & Associates Engineering</title>
+      <meta name="description" content="York & Associates Engineering has been providing engineering, surveying/mapping, and technical services to governmental authorities, municipalities, commercial, industrial, and private sectors since 2003." />
+      <link rel="canonical" href="https://www.yorkassociates.net/about" />
+    </Helmet>
     <div className="page page-about">
       <h1>About Us</h1>
       <Image

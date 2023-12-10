@@ -1,14 +1,22 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
+
 import imgOffice from '../../../img/office.jpg';
 import Image from '../Image/Image';
 
 import './PageContact.css';
+import { routes } from '../../data/consts';
 
 export default function PageContact() {
   return <>
+    <Helmet>
+      <title>Contact Us | York & Associates Engineering</title>
+      <meta name="description" content="We look forward to helping you find solutions that meet your specific design goals and project needs."/>
+      <link rel="canonical" href={`https://www.yorkassociates.net${routes.contact}`}/>
+    </Helmet>
     <div className="page page-contact">
-      <h1>Contact Us</h1>
-      <p>We look forward to helping you find solutions that meet your specific design goals and project needs.</p>
+    <h1>Contact Us</h1>
+    <p>We look forward to helping you find solutions that meet your specific design goals and project needs.</p>
       <p>If you have any questions about services, capabilities, or projects, please contact us today!</p>
       <div className="location">
         <div className="meta">

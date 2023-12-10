@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import { Helmet } from "react-helmet";
+
 import ImageGrid from '../ImageGrid/ImageGrid';
 
 import imgDev0 from '../../../img/services/services_dev_0.jpg';
@@ -19,7 +21,7 @@ import imgSurveying0 from '../../../img/services/services_surveying_0.jpg';
 
 import './PageServices.css';
 import Image from '../Image/Image';
-import { services } from '../../data/consts';
+import { routes, services } from '../../data/consts';
 
 export default function PageServices() {
 
@@ -39,6 +41,11 @@ export default function PageServices() {
   } );
 
   return <>
+    <Helmet>
+      <title>Services | York & Associates Engineering</title>
+      <meta name="description" content="For over 15 years, we've been partnering with communities and clients in providing cost-effective, low-maintenance, and enduring solutions." />
+      <link rel="canonical" href={`https://www.yorkassociates.net${routes.services}`} />
+    </Helmet>
     <div className="page page-services">
       <h1>Our Services</h1>
       <p>For over 15 years, we've been partnering with communities and clients in providing cost-effective, low-maintenance, and enduring solutions.</p>

@@ -1,7 +1,8 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
-import { projects } from '../../data/consts';
+import { projects, routes } from '../../data/consts';
 import ImageGrid from '../ImageGrid/ImageGrid';
 
 import imgHero from '../../../img/arlington/arlington_hero.jpg';
@@ -17,6 +18,11 @@ import Image from '../Image/Image';
 export default function PageArlington() {
 
   return <>
+    <Helmet>
+      <title>Arlington Demolition | York & Associates Engineering</title>
+      <meta name="description" content="The City of Arlington, Georgia, a rural town of population of 1,300 had an abandoned dilapidated and structurally unsound school and gym buildings that were listed on the State of Georgia’s List of Historical structures." />
+      <link rel="canonical" href={`https://www.yorkassociates.net${routes.projectArlington}`} />
+    </Helmet>
     <div className="page page-bainbridge">
       <h1>Arlington Demolition</h1>
       <Image
