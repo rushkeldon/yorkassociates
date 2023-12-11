@@ -1,7 +1,9 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
+
 import './PageEastDouglas.css';
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
-import { projects } from '../../data/consts';
+import { projects, routes } from '../../data/consts';
 
 import imgHero from '../../../img/eastdouglas/project_hero_east_douglas.jpg';
 import img0 from '../../../img/eastdouglas/project_shot_east_douglas_0.jpg';
@@ -14,6 +16,11 @@ import Image from '../Image/Image';
 
 export default function PageEastDouglas() {
   return <>
+    <Helmet>
+      <title>East Douglas Sanitary Sewer | York & Associates Engineering</title>
+      <meta name="description" content="The local rural city of 13,000 population implemented this infrastructure improvements project to serve nearly 400 homes in 7 established neighborhoods." />
+      <link rel="canonical" href={`https://www.yorkassociates.net${ routes.projectEastDouglas }`} />
+    </Helmet>
     <div className="page page-bainbridge">
       <h1>East Douglas Sanitary Sewer</h1>
       <Image

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
+
 import ImageGrid from '../ImageGrid/ImageGrid';
 
 import './PageWetland.css';
@@ -8,12 +10,17 @@ import img0 from '../../../img/wetland/wetland_sprinkler.jpg';
 import img1 from '../../../img/wetland/wetland_sprinkler_close.jpg';
 
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
-import { projects } from '../../data/consts';
+import { projects, routes } from '../../data/consts';
 import Image from '../Image/Image';
 
 export default function PageWetland() {
 
   return <>
+    <Helmet>
+      <title>Wetland Wastewater Treatment Facility Improvements | York & Associates Engineering</title>
+      <meta name="description" content="A constructed wetland wastewater treatment facility was originally built for Ochlocknee, a rural town of less than 1,000 population as a low operational cost and minimum maintenance solution." />
+      <link rel="canonical" href={`https://www.yorkassociates.net${routes.projectWetlandWasteWater}`} />
+    </Helmet>
     <div className="page page-bainbridge">
       <h1>Wetland Wastewater Treatment Facility Improvements</h1>
       <Image

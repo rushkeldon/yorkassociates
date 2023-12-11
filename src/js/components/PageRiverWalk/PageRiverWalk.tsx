@@ -1,7 +1,9 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
+
 import imgHero from '../../../img/riverwalk/riverwalk_hero.jpg';
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
-import { projects } from '../../data/consts';
+import { projects, routes } from '../../data/consts';
 import ImageGrid from '../ImageGrid/ImageGrid';
 import img0 from '../../../img/riverwalk/riverwalk_cement.jpg';
 import img1 from '../../../img/riverwalk/riverwalk_form.jpg';
@@ -15,6 +17,11 @@ import './PageRiverWalk.css';
 export default function PageRiverWalk() {
 
   return <>
+    <Helmet>
+      <title>Riverwalk Trail | York & Associates Engineering</title>
+      <meta name="description" content="The City of Bainbridge is an outdoor oriented community that prides itself on parks, recreation, and natural resources. The community has 5 miles of beautiful shaded riverbanks." />
+      <link rel="canonical" href={`https://www.yorkassociates.net${routes.projectRiverWalk}`} />
+    </Helmet>
     <div className="page page-river-walk">
       <h1>Riverwalk Trail</h1>
       <Image

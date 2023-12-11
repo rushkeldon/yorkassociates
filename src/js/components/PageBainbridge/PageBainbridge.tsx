@@ -1,6 +1,8 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
+
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
-import { projects } from '../../data/consts';
+import { projects, routes } from '../../data/consts';
 
 import Image from '../Image/Image';
 
@@ -11,6 +13,11 @@ import './PageBainbridge.css';
 export default function PageBainbridge() {
 
   return <>
+    <Helmet>
+      <title>Bainbridge High School Water & Sewer Improvements | York & Associates Engineering</title>
+      <meta name="description" content="A state of the art 1500 students high school was built 5 miles outside the City Limits with no available utilities nearby to serve the school." />
+      <link rel="canonical" href={`https://www.yorkassociates.net/${routes.projectBainbridge}`} />
+    </Helmet>
     <div className="page page-bainbridge">
       <h1>Bainbridge High School Water & Sewer Improvements</h1>
       <Image

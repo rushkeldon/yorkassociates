@@ -1,7 +1,9 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
+
 import ImageGrid from '../ImageGrid/ImageGrid';
 import ProjectLinks from '../ProjectLinks/ProjectLinks';
-import { projects } from '../../data/consts';
+import { projects, routes } from '../../data/consts';
 
 import imgHero from '../../../img/billreynolds/billreynolds_hero.jpg';
 import img0 from '../../../img/billreynolds/billreynolds_cast.jpg';
@@ -17,6 +19,11 @@ import Image from '../Image/Image';
 export default function PageBillReynolds() {
 
   return <>
+    <Helmet>
+      <title>Bill Reynolds Sports Complex | York & Associates Engineering</title>
+      <meta name="description" content="Bill Reynolds Sports Complex was invested in the community to enhance the citizen’s well-being, improve the local economy, conserve the natural environment, and strengthen the community." />
+      <link rel="canonical" href={`https://www.yorkassociates.net${routes.projectBillReynolds}`} />
+    </Helmet>
     <div className="page page-bainbridge">
       <h1>Bill Reynolds Sports Complex</h1>
       <Image
