@@ -11,9 +11,9 @@ Below when you see the phrase 'run' followed by `this font` it means to type the
 5. [http://localhost:3000](http://localhost:3000) should open automatically in your browser - changes will automatically be reflected in the browser as you make them
 6. Run `git pull` to bring the latest changes down from the remote repository
 7. Make changes to TSX files, LESS files, or any other files as needed (run `git add <file>` to add new files to your next commit)
-8. Run `git commit -a -m "your commit message here"` to commit your changes to the local repository
-9. Run `git push` to push your changes to the remote repository
-10. Run `npm run build` to build the project for production
+8. Run `npm run build` to build the project for production
+9. Run `git commit -a -m "your commit message here"` to commit your changes to the local repository
+10. Run `git push` to push your changes to the remote repository
 11. FTP the files from the `build` folder to the server (you will need to get the FTP credentials from the server administrator)
 
 ## Available Scripts
