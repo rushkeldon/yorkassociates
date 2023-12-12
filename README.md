@@ -1,5 +1,8 @@
 # YORK & ASSOCIATES ENGINEERING, INC WEBSITE
 
+## NOTE
+Below when you see the phrase 'run' followed by `this font` it means to type the command in the terminal and hit ENTER.
+
 ## How to Develop and Deploy Changes
 1. Clone the repository to your local machine (this will require git to be installed on your machine)
 2. In the terminal navigate to the root directory of the project
@@ -7,7 +10,7 @@
 4. Run `npm start` to start the development server locally
 5. [http://localhost:3000](http://localhost:3000) should open automatically in your browser - changes will automatically be reflected in the browser as you make them
 6. Make changes to TSX files, LESS files, or any other files as needed (run `git add <file>` to add new files to your next commit)
-7. Run `git commit` to commit your changes to the local repository
+7. Run `git commit -a -m "your commit message here"` to commit your changes to the local repository
 8. Run `git push` to push your changes to the remote repository
 9. Run `npm run build` to build the project for production
 10. FTP the files from the `build` folder to the server (you will need to get the FTP credentials from the server administrator)
