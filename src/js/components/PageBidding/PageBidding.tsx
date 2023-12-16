@@ -25,6 +25,7 @@ export default function PageBidding() {
       <ul>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_storm_ad_for_bid.pdf`}>Advertisement for Bids</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_storm_plan_holders.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_storm_bidresults.pdf`}>Bid Result</a></li>
       </ul>
       <div className="hr"/>
       <h2>Toombs Park Improvements</h2>
@@ -39,6 +40,7 @@ export default function PageBidding() {
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_toombs_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_toombs_plan_holders.pdf`}>Plan Holders List</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_toombs_addendum_1.pdf`}>Addendum No. 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_toombs_bidresults.pdf`}>Bid Result</a></li>
       </ul>
       <div className="hr"/>
       <h2>Gymnasium Demolition</h2>
