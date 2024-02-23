@@ -43,12 +43,12 @@ export default function PageServices() {
   return <>
     <Helmet>
       <title>Services | York & Associates Engineering</title>
-      <meta name="description" content="For over 15 years, we've been partnering with communities and clients in providing cost-effective, low-maintenance, and enduring solutions." />
+      <meta name="description" content="For over 20 years, we've been partnering with communities and clients in providing cost-effective, low-maintenance, and enduring solutions." />
       <link rel="canonical" href={`https://www.yorkassociates.net${routes.services}`} />
     </Helmet>
     <div className="page page-services">
       <h1>Our Services</h1>
-      <p>For over 15 years, we've been partnering with communities and clients in providing cost-effective, low-maintenance, and enduring solutions.</p>
+      <p>For over 20 years, we've been partnering with communities and clients in providing cost-effective, low-maintenance, and enduring solutions.</p>
       <div className="hr"/>
       <h2 id={services.muni}>Municipal</h2>
       <p>We offer engineering solutions to our municipal clients that focus on practicality, cost-saving features, low-maintenance, and viable design. Our highly qualified team with years of
