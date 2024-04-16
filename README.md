@@ -12,7 +12,7 @@ Below when you see the phrase 'run' followed by `this font` it means to type the
 6. Run `git pull` to bring the latest changes down from the remote repository
 7. Make changes:
     a. for source files make changes to TSX files, LESS files in the src directory. 
-    b. for PDF files add or change in public/doc directory
+    b. for PDF files add or change in public/doc directory. Save.
 8. Run `npm run build` to build the project for production
 9. Run `git commit -a -m "your commit message here"` to commit your changes to the local repository
 10. Run `git push` to push your changes to the remote repository

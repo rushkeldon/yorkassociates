@@ -14,6 +14,18 @@ export default function PageBidding() {
     <div className="page page-bidding">
       <h1>Bidding</h1>
       <div className="hr"/>
+      <h2>Demolition of Boys and Girls Club</h2>
+      <h3>Project Number</h3>
+      <p>#2024-01</p>
+      <h3>Bid Date</h3>
+      <p>Friday, May 17, 2024, 11:00 AM (ET)</p>
+      <h3>Work to Be Done</h3>
+      <p>Demolition</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_boysgirlsclub_demo_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+      </ul>
+      <div className="hr"/>
       <h2>Wheat Ave. Phase III</h2>
       <h3>Project Number</h3>
       <p>#2022-06</p>
