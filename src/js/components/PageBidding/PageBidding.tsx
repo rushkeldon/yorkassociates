@@ -24,6 +24,7 @@ export default function PageBidding() {
       <h3>Links</h3>
       <ul>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_boysgirlsclub_demo_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_boysgirlsclub_demo_plan_holders.pdf`}>Plan Holders List</a></li>
       </ul>
       <div className="hr"/>
       <h2>Wheat Ave. Phase III</h2>
