@@ -14,6 +14,19 @@ export default function PageBidding() {
     <div className="page page-bidding">
       <h1>Bidding</h1>
       <div className="hr"/>
+      <h2>Town of Ochlocknee Water Improvements</h2>
+      <h3>Project Number</h3>
+      <p>#2024-18</p>
+      <h3>Bid Date</h3>
+      <p> Friday, August 30, 2024, 11:00 AM (ET)</p>
+      <h3>Water improvements</h3>
+      <p>Demolition</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterimprovement_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterimprovement_plan_holders.pdf`}>Plan Holders List</a></li>
+      </ul>
+      <div className="hr"/>
       <h2>Demolition of Boys and Girls Club</h2>
       <h3>Project Number</h3>
       <p>#2024-01</p>
@@ -27,6 +40,7 @@ export default function PageBidding() {
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_boysgirlsclub_demo_plan_holders.pdf`}>Plan Holders List</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_boysgirlsclub_demo_bid_result`}>Bid Result</a></li>
       </ul>
+
       <div className="hr"/>
       <h2>Wheat Ave. Phase III</h2>
       <h3>Project Number</h3>
