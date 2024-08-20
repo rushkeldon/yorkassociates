@@ -14,17 +14,30 @@ export default function PageBidding() {
     <div className="page page-bidding">
       <h1>Bidding</h1>
       <div className="hr"/>
+      <h2>Cemetery Roads- Phase I</h2>
+      <h3>Project Number</h3>
+      <p>#2023-22</p>
+      <h3>Bid Date</h3>
+      <p>Thursday, September 19, 2024</p>
+      <h3>Work to Be Done</h3>
+      <p>Roads Improvements</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_cemeteryrd_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+      </ul>
+      <div className="hr"/>
       <h2>Town of Ochlocknee Water Improvements</h2>
       <h3>Project Number</h3>
       <p>#2024-18</p>
       <h3>Bid Date</h3>
-      <p> Friday, August 30, 2024, 11:00 AM (ET)</p>
-      <h3>Water improvements</h3>
-      <p>Demolition</p>
+      <p> Wednesday September 4, 2024, 11:00 AM (ET)</p>
+      <h3>Work to Be Done</h3>
+      <p>Water improvements</p>
       <h3>Links</h3>
       <ul>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterimprovement_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterimprovement_plan_holders.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterimprovement_addendum_1.pdf`}>Addendum No. 1</a></li>
       </ul>
       <div className="hr"/>
       <h2>Demolition of Boys and Girls Club</h2>
