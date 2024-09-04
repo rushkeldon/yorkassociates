@@ -24,6 +24,7 @@ export default function PageBidding() {
       <h3>Links</h3>
       <ul>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_cemeteryrd_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_cemeteryrd_plan_holders.pdf`}>Plan Holders List</a></li>
       </ul>
       <div className="hr"/>
       <h2>Town of Ochlocknee Water Improvements</h2>
@@ -38,6 +39,7 @@ export default function PageBidding() {
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterimprovement_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterimprovement_plan_holders.pdf`}>Plan Holders List</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterimprovement_addendum_1.pdf`}>Addendum No. 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterimprovement_bid_result.pdf`}>Bid Result</a></li>
       </ul>
       <div className="hr"/>
       <h2>Demolition of Boys and Girls Club</h2>
