@@ -14,6 +14,18 @@ export default function PageBidding() {
     <div className="page page-bidding">
       <h1>Bidding</h1>
       <div className="hr"/>
+      <h2>Bainbridge CDBG Wheat Ave. Storm Drainage Improvements</h2>
+      <h3>Project Number</h3>
+      <p>#2022-06</p>
+      <h3>Bid Date</h3>
+      <p>Thursday, April 24, 2025</p>
+      <h3>Work to Be Done</h3>
+      <p>Storm Drainage/Street Improvements</p>
+      <h3>Links</h3>
+      <ul>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_wheat_bids.pdf`}>Advertisement for Bids</a></li>
+      </ul>
+      <div className="hr"/>
       <h2>Cemetery Roads- Phase I</h2>
       <h3>Project Number</h3>
       <p>#2023-22</p>
