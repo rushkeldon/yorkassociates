@@ -47,5 +47,8 @@
   "browserslist": [
     "last 10 versions",
     ">0.2%"
-  ]
+  ],
+  "devDependencies": {
+    "ssh2-sftp-client": "^12.0.0"
+  }
 }
