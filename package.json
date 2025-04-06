@@ -35,7 +35,8 @@
     "start": "concurrently --kill-others \"less-watch-compiler --config less-watcher.config.json\" \"react-scripts start\"",
     "build": "react-scripts build",
     "serveLightForgeLocally": "npm run comment && concurrently --kill-others \"less-watch-compiler --config less-watcher.config.json\" \"HOST=192.168.86.24 react-scripts start\"",
-    "comment": "echo you can access the local build at http://lightforge:3000/york"
+    "comment": "echo you can access the local build at http://lightforge:3000/york",
+    "deploy": "node deploy.js"
   },
   "eslintConfig": {
     "extends": [
