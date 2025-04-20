@@ -25,6 +25,8 @@ export default function PageBidding() {
       <ul>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_wheat_bids.pdf`}>Advertisement for Bids</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_wheat_plan_holders.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_wheat_add_1.pdf`}>Addendum 1</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_wheat_add_2.pdf`}>Addendum 2</a></li>
       </ul>
       <div className="hr"/>
       <h2>Cemetery Roads- Phase I</h2>
