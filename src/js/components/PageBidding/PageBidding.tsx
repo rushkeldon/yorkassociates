@@ -27,6 +27,8 @@ export default function PageBidding() {
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_wheat_plan_holders.pdf`}>Plan Holders List</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_wheat_add_1.pdf`}>Addendum 1</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_wheat_add_2.pdf`}>Addendum 2</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_wheat_add_3.pdf`}>Addendum 3</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/bainbridge_wheat_bidresults.pdf`}>Bid Result</a></li>
       </ul>
       <div className="hr"/>
       <h2>Cemetery Roads- Phase I</h2>
@@ -40,6 +42,7 @@ export default function PageBidding() {
       <ul>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_cemeteryrd_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_cemeteryrd_plan_holders.pdf`}>Plan Holders List</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_cemeteryrd_bidresults.pdf`}>Bid Result</a></li>
       </ul>
       <div className="hr"/>
       <h2>Town of Ochlocknee Water Improvements</h2>
@@ -68,7 +71,7 @@ export default function PageBidding() {
       <ul>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_boysgirlsclub_demo_ad_for_bids.pdf`}>Advertisement for Bids</a></li>
         <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_boysgirlsclub_demo_plan_holders.pdf`}>Plan Holders List</a></li>
-        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_boysgirlsclub_demo_bid_result`}>Bid Result</a></li>
+        <li><a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_boysgirlsclub_demo_bid_result.pdf`}>Bid Result</a></li>
       </ul>
 
       <div className="hr"/>
