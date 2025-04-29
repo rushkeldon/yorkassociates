@@ -30,7 +30,6 @@ pnpm-debug.log*
 Thumbs.db
 
 # Compiled files
-*.map
 *.log
 
 # Test coverage
