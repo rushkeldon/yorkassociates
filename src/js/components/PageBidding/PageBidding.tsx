@@ -28,13 +28,13 @@ export default function PageBidding() {
         </li>
       </ul>
       <div className="hr"/>
-      <h2>Cemetery Roads- Phase II</h2>
+      <h2>Cemetery Roads Improvement Phase II</h2>
       <h3>Project Number</h3>
       <p>#2025-13</p>
       <h3>Bid Date</h3>
       <p>Wednesday, June 11, 2025</p>
       <h3>Work to Be Done</h3>
-      <p>Roads Improvements</p>
+      <p>Road Construction</p>
       <h3>Links</h3>
       <ul>
         <li>
