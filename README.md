@@ -1,5 +1,8 @@
 # YORK & ASSOCIATES ENGINEERING, INC WEBSITE
 
+## HOW TO EDIT WITH GITHUB CODESPACES
+- [instructions](https://docs.google.com/document/d/1qNqhibkILbn6Kn2NrW5GTkcCXjdqB9_dupoB5SkTU5o/edit?usp=sharing)
+
 ## NOTE
 Below when you see the phrase 'run' followed by `this font` it means to type the command in the terminal and hit ENTER.
 
