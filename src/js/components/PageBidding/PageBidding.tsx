@@ -29,6 +29,9 @@ export default function PageBidding() {
         <li>
           <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_plan_holders.pdf`}>Plan Holders List</a>
         </li>
+        <li>
+          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_addendum_1.pdf`}>Addendum 1</a>
+        </li>
       </ul>
       <div className="hr"/>
       <h2>Cemetery Roads Improvement Phase II</h2>
