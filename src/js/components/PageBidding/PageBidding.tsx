@@ -20,7 +20,7 @@ export default function PageBidding() {
       <h3>Bid Date</h3>
       <p>Wednesday July 14th at 2:00 PM (ET)</p>
       <h3>Work to Be Done</h3>
-      <p>Road Construction, and Furnishing</p>
+      <p>Construct a new Gymnasium of approximately 16,000 s.f. including site construction and utilities as needed for a completion of the Camilla Gymnasium.</p>
       <h3>Links</h3>
       <ul>
         <li>
