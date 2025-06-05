@@ -27,7 +27,6 @@ export default function PageBidding() {
           <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_ad_for_bids`}>Advertisement for Bids</a>
         </li>
       </ul>
-      
       <div className="hr"/>
       <h2>Damascus City Park and Infrastructure Rehabilitation</h2>
       <h3>Project Number</h3>
