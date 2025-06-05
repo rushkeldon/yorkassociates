@@ -14,11 +14,26 @@ export default function PageBidding() {
     <div className="page page-bidding">
       <h1>Bidding</h1>
       <div className="hr"/>
+      <h2>Camilla Gymnasium</h2>
+      <h3>Project Number</h3>
+      <p>#2024-019</p>
+      <h3>Bid Date</h3>
+      <p>Wednesday July 14th at 2:00PM</p>
+      <h3>Work to Be Done</h3>
+      <p>Road Construction, and Furnishing</p>
+      <h3>Links</h3>
+      <ul>
+        <li>
+          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_ad_for_bids`}>Advertisement for Bids</a>
+        </li>
+      </ul>
+      
+      <div className="hr"/>
       <h2>Damascus City Park and Infrastructure Rehabilitation</h2>
       <h3>Project Number</h3>
       <p>#2024-10</p>
       <h3>Bid Date</h3>
-      <p>Tuesday, June 10, 2025</p>
+      <p>Wednesday July 9th at 3:00PM</p>
       <h3>Work to Be Done</h3>
       <p>Road Construction, Parking, and Playground</p>
       <h3>Links</h3>
