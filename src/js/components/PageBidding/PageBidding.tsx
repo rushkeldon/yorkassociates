@@ -18,7 +18,7 @@ export default function PageBidding() {
       <h3>Project Number</h3>
       <p>#2024-019</p>
       <h3>Bid Date</h3>
-      <p>Wednesday July 14th at 2:00PM</p>
+      <p>Wednesday July 14th at 2:00 PM (ET)</p>
       <h3>Work to Be Done</h3>
       <p>Road Construction, and Furnishing</p>
       <h3>Links</h3>
@@ -32,7 +32,7 @@ export default function PageBidding() {
       <h3>Project Number</h3>
       <p>#2024-10</p>
       <h3>Bid Date</h3>
-      <p>Wednesday July 9th at 3:00PM</p>
+      <p>Wednesday July 9th at 3:00 PM (ET)</p>
       <h3>Work to Be Done</h3>
       <p>Road Construction, Parking, and Playground</p>
       <h3>Links</h3>
