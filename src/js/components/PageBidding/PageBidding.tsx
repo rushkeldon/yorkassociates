@@ -35,6 +35,10 @@ export default function PageBidding() {
                 <li>
           <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_addendum_1.pdf`}>Addendum 1</a>
         </li>
+                </li>
+                <li>
+          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_addendum_2.pdf`}>Addendum 2</a>
+        </li>
       </ul>
       <div className="hr"/>
       <h2>Damascus City Park and Infrastructure Rehabilitation</h2>
