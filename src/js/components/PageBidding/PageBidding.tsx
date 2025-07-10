@@ -18,7 +18,7 @@ export default function PageBidding() {
       <h3>Project Number</h3>
       <p>#2024-019</p>
       <h3>Bid Date</h3>
-      <p>Wednesday July 14th at 2:00 PM (ET)</p>
+      <p>Friday July 25 at 11:00 AM (ET)</p>
       <h3>Work to Be Done</h3>
       <p>Construct a new Gymnasium of approximately 16,000 s.f. including site construction and utilities as needed for a completion of the Camilla Gymnasium.</p>
       <h3>Links</h3>
