@@ -35,7 +35,7 @@ export default function PageBidding() {
         <li>
           <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_addendum_2.pdf`}>Addendum 2</a>
         </li>
-                <li>
+        <li>
           <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_addendum_3.pdf`}>Addendum 3</a>
         </li>
       </ul>
@@ -53,13 +53,13 @@ export default function PageBidding() {
           <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_ad_for_bids.pdf`}>Advertisement for Bids</a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_plan_holders.pdf`}>Plan Holders List</a>
+        <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_plan_holders.pdf`}>Plan Holders List</a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_addendum_1.pdf`}>Addendum 1</a>
+        <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_addendum_1.pdf`}>Addendum 1</a>
         </li>
-                <li>
-          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_addendum_2.pdf`}>Addendum 2</a>
+        <li>
+        <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_addendum_2.pdf`}>Addendum 2</a>
         </li>
       </ul>
       <div className="hr"/>
