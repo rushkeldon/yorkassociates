@@ -6,7 +6,7 @@ const config = {
   host: 'home148174042.1and1-data.host',
   port: 22,
   username: 'u39440144',
-  password: 'Mtvk-92jpbs-05',
+  password: 'mypwd',
 };
 
 const localDir = path.join(__dirname, 'build');
