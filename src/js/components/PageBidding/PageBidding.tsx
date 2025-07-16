@@ -79,7 +79,7 @@ export default function PageBidding() {
           <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_cemeteryrd2_plan_holders.pdf`}>Plan Holders List</a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_cemeteryrd2_bid_results.pdf`}>Bid Result</a>
+          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_bid_results.pdf`}>Bid Result</a>
         </li>
       </ul>
       <div className="hr"/>
