@@ -13,6 +13,24 @@ export default function PageBidding() {
     </Helmet>
     <div className="page page-bidding">
       <h1>Bidding</h1>
+    <div className="hr"/>
+      <h2>Damascus City Park and Infrastructure Rehabilitation (Rebid)</h2>
+      <h3>Project Number</h3>
+      <p>#2024-10</p>
+      <h3>Bid Date</h3>
+      <p>August 18 at 3:00 PM (ET)</p>
+      <h3>Work to Be Done</h3>
+      <p>Road Construction, Parking, and Playground</p>
+      <h3>Links</h3>
+      <ul>
+        <li>
+          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_ad_for_bids.pdf`}>Advertisement for Bids</a>
+        </li>
+        <li>
+        <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_addendum_1.pdf`}>Addendum 1</a>
+        </li>
+      </ul>
+
       <div className="hr"/>
       <h2>Camilla Gymnasium</h2>
       <h3>Project Number</h3>
