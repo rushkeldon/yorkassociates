@@ -59,6 +59,9 @@ export default function PageBidding() {
         <li>
           <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_addendum_4.pdf`}>Addendum 4</a>
         </li>
+        <li>
+          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_addendum_5.pdf`}>Addendum 5</a>
+        </li>
       </ul>
       <div className="hr"/>
       <h2>Damascus City Park and Infrastructure Rehabilitation</h2>
@@ -452,7 +455,7 @@ export default function PageBidding() {
       <h3>Links</h3>
       <ul>
         <li>
-          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_bainbridge_ad_for_bids_sec00030.pdf`}>Advertisement for Bids</a>
+          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_bainbridge_ad_for_bids.pdf`}>Advertisement for Bids</a>
         </li>
         <li>
           <a target="_blank" rel="noreferrer" href={`${baseURL}doc/city_of_bainbridge_plan_holders_list.pdf`}>Plan Holders List</a>
