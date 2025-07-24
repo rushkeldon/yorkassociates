@@ -27,6 +27,9 @@ export default function PageBidding() {
           <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_ad_for_bids.pdf`}>Advertisement for Bids</a>
         </li>
         <li>
+        <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_plan_holders.pdf`}>Plan Holders List</a>
+        </li>
+        <li>
         <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_addendum_1.pdf`}>Addendum 1</a>
         </li>
       </ul>
