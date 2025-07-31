@@ -65,6 +65,9 @@ export default function PageBidding() {
         <li>
           <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_addendum_5.pdf`}>Addendum 5</a>
         </li>
+        <li>
+          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_bid_results.pdf`}>Bid Results</a>
+        </li>
       </ul>
       <div className="hr"/>
       <h2>Damascus City Park and Infrastructure Rehabilitation</h2>
@@ -106,7 +109,7 @@ export default function PageBidding() {
           <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_cemeteryrd2_plan_holders.pdf`}>Plan Holders List</a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_gym_bid_results.pdf`}>Bid Result</a>
+          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_cemeteryrd2_bid_results.pdf`}>Bid Result</a>
         </li>
       </ul>
       <div className="hr"/>
