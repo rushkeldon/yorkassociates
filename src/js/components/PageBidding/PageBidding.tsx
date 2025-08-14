@@ -48,6 +48,7 @@ export default function PageBidding() {
         <li>
         <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_addendum_1.pdf`}>Addendum 1</a>
         </li>
+        <li>
         <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_addendum2.pdf`}>Addendum 2</a>
         </li>
       </ul>
