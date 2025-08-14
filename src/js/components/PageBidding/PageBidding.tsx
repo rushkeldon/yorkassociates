@@ -13,6 +13,22 @@ export default function PageBidding() {
     </Helmet>
     <div className="page page-bidding">
       <h1>Bidding</h1>
+
+      <div className="hr"/>
+      <h2>Ochlocknee Water Tank Demolition</h2>
+      <h3>Project Number</h3>
+      <p>#2025-15</p>
+      <h3>Bid Date</h3>
+      <p>September 12th at 2:00 PM (ET)</p>
+      <h3>Work to Be Done</h3>
+      <p>Demolition</p>
+      <h3>Links</h3>
+      <ul>
+      <li>
+      <a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterdemo_ad_for_bids.pdf`}>Advertisement for Bids</a>
+      </li>
+      </ul>
+
     <div className="hr"/>
       <h2>Damascus City Park and Infrastructure Rehabilitation (Rebid)</h2>
       <h3>Project Number</h3>
@@ -24,13 +40,15 @@ export default function PageBidding() {
       <h3>Links</h3>
       <ul>
         <li>
-          <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_ad_for_bids.pdf`}>Advertisement for Bids</a>
+        <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_ad_for_bids.pdf`}>Advertisement for Bids</a>
         </li>
         <li>
         <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_plan_holders.pdf`}>Plan Holders List</a>
         </li>
         <li>
         <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_addendum_1.pdf`}>Addendum 1</a>
+        </li>
+        <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_addendum2.pdf`}>Addendum 2</a>
         </li>
       </ul>
 
