@@ -27,6 +27,9 @@ export default function PageBidding() {
       <li>
       <a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterdemo_ad_for_bids.pdf`}>Advertisement for Bids</a>
       </li>
+      <li>
+      <a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterdemo_plan_holders.pdf`}>Plan Holders List</a>
+      </li>
       </ul>
 
     <div className="hr"/>
@@ -50,6 +53,9 @@ export default function PageBidding() {
         </li>
         <li>
         <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_addendum2.pdf`}>Addendum 2</a>
+        </li>
+        <li>
+        <a target="_blank" rel="noreferrer" href={`${baseURL}doc/damascus_rebid_bid_results.pdf`}>Bid Results</a>
         </li>
       </ul>
 
