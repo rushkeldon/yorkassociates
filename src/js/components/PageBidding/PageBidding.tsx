@@ -28,7 +28,7 @@ export default function PageBidding() {
       <a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterdemo_ad_for_bids.pdf`}>Advertisement for Bids</a>
       </li>
       <li>
-      <a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterdemo_plan_holders.pdf`}>Plan Holders List</a>
+      <a target="_blank" rel="noreferrer" href={`${baseURL}doc/ochlocknee_waterdemo_bid_results.pdf`}>Bid Results</a>
       </li>
       </ul>
 
