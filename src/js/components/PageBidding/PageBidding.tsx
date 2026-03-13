@@ -15,6 +15,24 @@ export default function PageBidding() {
       <h1>Bidding</h1>
 
       <div className="hr"/>
+      <h2>Baseball Field Storm Drainage Rehabilitation</h2>
+      <h3>Project Number</h3>
+      <p>#2023-05</p>
+      <h3>Bid Date</h3>
+      <p>March 19th, 2026 at 11:30AM (ET)</p>
+      <h3>Work to Be Done</h3>
+      <p>Storm Rehabilitation</p>
+      <h3>Links</h3>
+      <ul>
+      <li>
+      <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_baseballfield_ad_for_bids.pdf`}>Advertisement for Bids</a>
+      </li>
+      <li>
+      <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_baseballfield_plan_holders.pdf`}>Plan Holders List</a>
+      </li>
+      </ul>
+
+      <div className="hr"/>
       <h2>Ochlocknee Water Tank Demolition</h2>
       <h3>Project Number</h3>
       <p>#2025-15</p>
