@@ -15,6 +15,21 @@ export default function PageBidding() {
       <h1>Bidding</h1>
 
       <div className="hr"/>
+      <h2>Cemetery Roads Improvements- Phase III</h2>
+      <h3>Project Number</h3>
+      <p>#2026-08</p>
+      <h3>Bid Date</h3>
+      <p>June 11th, 2026 at 11:00 AM (ET)</p>
+      <h3>Work to Be Done</h3>
+      <p>Road construction</p>
+      <h3>Links</h3>
+      <ul>
+      <li>
+      <a target="_blank" rel="noreferrer" href={`${baseURL}doc/camilla_cemeteryrd3_ad_for_bids.pdf`}>Advertisement for Bids</a>
+      </li>
+      </ul>
+
+      <div className="hr"/>
       <h2>Baseball Field Storm Drainage Rehabilitation</h2>
       <h3>Project Number</h3>
       <p>#2023-05</p>
